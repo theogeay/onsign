@@ -1,0 +1,14 @@
+.test{
+background: #62ADFE;
+border-radius: 20px;
+height: 400px;
+width: 400px;
+}
+button{
+background: #FF6D09;
+border-radius: 50px;
+
+font-family: Gravity-Bold;
+font-size: 24px;
+color: #FFFFFF;
+}
