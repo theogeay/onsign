@@ -1,14 +1,276 @@
-.test{
-background: #62ADFE;
-border-radius: 20px;
-height: 400px;
-width: 400px;
+body {
+	margin: 0;
 }
-button{
-background: #FF6D09;
-border-radius: 50px;
 
-font-family: Gravity-Bold;
-font-size: 24px;
-color: #FFFFFF;
+a {
+	text-decoration: none;
 }
+
+/* ---------- Les TITRES ------------- */
+
+h1 {
+
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+/* ---------- Colors ------------- */
+
+.blue {
+	background-color: #62ADFE;
+}
+
+.text-blue {
+	color: #62ADFE;
+}
+
+.white {
+	background-color: white;
+}
+
+.text-white {
+	color: white;
+}
+
+.orange {
+	background-color: #ff6d09;
+}
+
+.text-orange {
+	color: #ff6d09;
+}
+
+.black {
+	background-color: black;
+}
+
+.text-black {
+	color: black;
+}
+
+
+/* ---------- Les width et height ------------- */
+
+.w-100 {
+	width: 100%;
+}
+
+.w-95 {
+	width: 95%;
+}
+
+.w-90 {
+	width: 90%;
+}
+
+.w-85 {
+	width: 85%;
+}
+
+.w-80 {
+	width: 80%;
+}
+
+.w-75 {
+	width: 75%;
+}
+
+.w-70 {
+	width: 70%;
+}
+
+.w-60 {
+	width: 60%;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.w-45 {
+	width: 45%;
+}
+
+.w-40 {
+	width: 40%;
+}
+
+.w-35 {
+	width: 35%;
+}
+
+.w-30 {
+	width: 30%;
+}
+
+.w-25 {
+	width: 25%;
+}
+
+.w-15 {
+	width: 15%;
+}
+
+.w-10 {
+	width: 10%;
+}
+/* ---- hauteur d'un bloc ---- */
+
+.h-100 {
+	height: 100vh;
+}
+
+.h-75 {
+	height: 75vh;
+}
+
+.h-50 {
+	height: 50vh;
+}
+
+.h-40 {
+	height: 40vh;
+}
+
+.h-35 {
+	height: 35vh;
+}
+
+.h-25 {
+	height: 25vh;
+}
+
+.h-20 {
+	height: 20vh;
+}
+
+/* ----------- Les FLEX ---------- */
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.flex_sb {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.flex-start {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+/* --------- Header, nav, section, footer ----------- */
+
+header {
+	background-color: rgba(98,173,254,0.7);
+	width: 100%;
+	height: 15vh;
+	position: fixed;	
+}
+
+section {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	width: 80%;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	width: 95%;
+	height: 100%;
+}
+
+nav ul {
+	display: flex;
+	width: 80%;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+nav ul li {
+	border-radius: 15px;
+	border: 2px white solid;
+	padding: 7px;
+	color: white;
+	width: calc(80%/6);
+	text-align: center;
+}
+
+.nav_btn_inscription {
+	background-color: white;
+}
+
+.nav_btn_inscription a {
+	color: #62ADFE;
+}
+
+.nav_btn_inscription a:visited {
+	color: #62ADFE;
+}
+
+header a {
+	color: white;
+	font-size: 0.8rem;
+}
+
+header a:visited {
+	color: white;
+}
+
+/* ----------- Les buttons ---------- */
+
+.button_orange {
+	text-transform: uppercase;
+	color: white;
+	background-color: #ff6d09;
+	padding: 7px;
+	border-radius: 15px;
+	border: transparent 1px solid;
+	width: 25%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* ----------- Home ---------- */
+
+.home_section_lsf {
+	background: url('../images/home_section_lsf.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.home_text_section_lsf {
+	width: 50%;
+}
+
