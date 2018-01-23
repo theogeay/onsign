@@ -16,39 +16,76 @@ h2 {
 	text-transform: uppercase;
 }
 
+/* ---------- text-align ------------- */
+
+.text-center {
+	text-align: center!important;
+}
+
+.text-left {
+	text-align: left!important;
+}
+
+.text-right {
+	text-align: right!important;
+}
+/* ---------- padding & margin ------------- */
+
+.margin-auto {
+	margin: auto;
+}
+
+.padding {
+	padding: 1rem;
+}
+
 /* ---------- Colors ------------- */
 
 .blue {
-	background-color: #62ADFE;
+	background-color: #62ADFE!important;
 }
 
 .text-blue {
-	color: #62ADFE;
+	color: #62ADFE!important;
 }
 
 .white {
-	background-color: white;
+	background-color: white!important;
 }
 
 .text-white {
-	color: white;
+	color: white!important;
 }
 
 .orange {
-	background-color: #ff6d09;
+	background-color: #ff6d09!important;
 }
 
 .text-orange {
-	color: #ff6d09;
+	color: #ff6d09!important;
 }
 
 .black {
-	background-color: black;
+	background-color: black!important;
 }
 
 .text-black {
-	color: black;
+	color: black!important;
 }
+
+/* ----------- Les buttons ---------- */
+
+.button {
+	text-transform: uppercase;
+	color: white;
+	padding: 7px;
+	border-radius: 15px;
+	border: transparent 1px solid;
+	width: 25%;
+	text-align: center;
+	margin-top: 20px;
+}
+
 
 
 /* ---------- Les width et height ------------- */
@@ -155,10 +192,17 @@ h2 {
 	flex-wrap: wrap;
 }
 
-.flex_sb {
+.flex-sb {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.flex-sa {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	flex-wrap: wrap;
 }
 
@@ -179,6 +223,13 @@ h2 {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
+}
+
+.flex-col-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
 }
 
 /* --------- Header, nav, section, footer ----------- */
@@ -248,20 +299,6 @@ header a:visited {
 	color: white;
 }
 
-/* ----------- Les buttons ---------- */
-
-.button_orange {
-	text-transform: uppercase;
-	color: white;
-	background-color: #ff6d09;
-	padding: 7px;
-	border-radius: 15px;
-	border: transparent 1px solid;
-	width: 25%;
-	text-align: center;
-	margin-top: 20px;
-}
-
 /* ----------- Home ---------- */
 
 .home_section_lsf {
@@ -272,5 +309,28 @@ header a:visited {
 
 .home_text_section_lsf {
 	width: 50%;
+}
+
+.bulle {
+	border: 1px transparent solid;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+}
+
+.bulle_avis {
+	border: 2px #ff6d09 solid;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	background-color: #ff6d09;
+}
+
+.avis {
+	border: 1px transparent solid;
+	border-radius: 15px;
+	width: 100%;
+	background-color: white;
 }
 
