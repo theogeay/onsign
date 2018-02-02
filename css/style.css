@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700');
+
 body {
 	margin: 0;
+	font-family: 'Cabin', 'Arial';
+	font-weight: 400;
 }
 
 a {
