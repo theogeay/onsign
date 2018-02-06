@@ -43,6 +43,10 @@ h2 {
 	padding: 1rem;
 }
 
+.m-top-5px {
+	margin-top: 5px;
+}
+
 /* ---------- Colors ------------- */
 
 .blue {
@@ -75,6 +79,10 @@ h2 {
 
 .text-black {
 	color: black!important;
+}
+
+.border-transparent {
+	border: 1px transparent solid!important;
 }
 
 /* ----------- Les buttons ---------- */
@@ -122,8 +130,16 @@ h2 {
 	width: 70%;
 }
 
+.w-65 {
+	width: 65%;
+}
+
 .w-60 {
 	width: 60%;
+}
+
+.w-55 {
+	width: 55%;
 }
 
 .w-50 {
@@ -156,6 +172,10 @@ h2 {
 
 .w-10 {
 	width: 10%;
+}
+
+.w-5 {
+	width: 5%;
 }
 /* ---- hauteur d'un bloc ---- */
 
@@ -236,13 +256,20 @@ h2 {
 	align-items: center;	
 }
 
+/* --------- Section avec border radius ----------- */
+
+.bloc_bordered {
+	border: 1px transparent solid;
+	border-radius: 15px;
+}
+
 /* --------- Header, nav, section, footer ----------- */
 
 header {
 	background-color: rgba(98,173,254,0.7);
 	width: 100%;
 	height: 15vh;
-	position: fixed;	
+	position: fixed;
 }
 
 section {
@@ -336,5 +363,11 @@ header a:visited {
 	border-radius: 15px;
 	width: 100%;
 	background-color: white;
+}
+
+.home_section_certif {
+	background: url('../images/home_section_certif.jpg');
+	background-position: center;
+	background-size: cover;
 }
 
