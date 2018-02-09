@@ -1,30 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="content">
-	<title>Onsign - Home</title>
-	<link rel="stylesheet" href="../css/style.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-		  rel="stylesheet">
-</head>
-<body>
-	<header id="#top">
-	<nav>
-		<ul>
-			<li><a href="nos_offres.html" title="">nos offres</a></li>
-			<li><a href="qui_sommes_nous.html" title="">qui sommes-nous</a></li>
-			<li><a href="apprendre_lsf.html" title="">apprendre la lsf</a></li>
-			<li><a href="certifications.html" title="">certifications</a></li>
-			<li><a href="connexion.html" title="">connexion</a></li>
-			<li class="nav_btn_inscription"><a href="inscription.html" title="">inscription</a></li>
-		</ul>
-	</nav>
-	</header>
+<?php include('../include/header.php') ?>
 
-	<main>
-		<div id="ancre" class="flex-col-center"><a  href="#top" class="text-white"><i class="material-icons">keyboard_arrow_up</i></a></div>
 		<section class="home_section_lsf h-85">
 			<div class="container flex-end">
 				<div class="w-50 text-white flex-col h-60">
@@ -184,16 +159,4 @@
 			</div>
 		</section>
 
-		<footer class="w-100 h-15 blue flex-start-end">
-			<div class="flex-sa w-60">
-				<p><a href="#" class="text-white">Copyright</a></p>
-				<p><a href="#" class="text-white">Mentions légales</a></p>
-				<p><a href="#" class="text-white">Données personnelles</a></p>
-				<p><a href="#" class="text-white">Consulter notre FAQ</a></p>
-				<p><a href="#" class="text-white">Contact</a></p>
-			</div>
-		</footer>
-
-	</main>
-</body>
-</html>
+<?php include('../include/footer.php') ?>

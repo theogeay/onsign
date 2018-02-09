@@ -353,6 +353,10 @@ h3 {
 	border-radius: 15px;
 }
 
+.hidden {
+	display: none;
+}
+
 /* --------- Header, nav, section, footer ----------- */
 
 header {
@@ -382,7 +386,7 @@ nav {
 
 nav ul {
 	display: flex;
-	width: 80%;
+	width: 75%;
 	justify-content: space-around;
 	align-items: center;
 	list-style-type: none;
