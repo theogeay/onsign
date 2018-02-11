@@ -1,4 +1,8 @@
-<?php include('../include/header.php') ?>
+<?php
+$title = "Onsign";
+$description = "écrire la meta description de la page";
+include('../include/header.php');
+?>
 
 		<section class="home_section_lsf h-85">
 			<div class="container flex-end">
@@ -55,7 +59,7 @@
 			<div class="container flex-col-center-sa h-75 ">
 				<h2 class="text-white">votre satisfaction, notre priorité</h2>
 				<div class="w-100 avis padding">
-					<div class="flex-end w-50">
+					<div class="flex-sa w-50">
 						<div class="bulle">
 							<img src="" alt="">
 						</div>
@@ -85,16 +89,16 @@
 		<section>
 			<div class="container">
 			<div class="flex-sb w-100">
-				<div class="w-30 h-50 flex-col-center-sa blue padding bloc_bordered">
-					<div class="flex-sa w-75"><div class="bulle_avis border-transparent text-center text-blue white"><div class="m-top-5px">1</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
-					<div class="flex-sa w-75"><div class="bulle_avis border-transparent text-center text-blue white"><div class="m-top-5px">2</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
-					<div class="flex-sa w-75"><div class="bulle_avis border-transparent text-center text-blue white"><div class="m-top-5px">3</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
-					<div class="flex-sa w-75"><div class="bulle_avis border-transparent text-center text-blue white"><div class="m-top-5px">4</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
-					<div class="flex-sa w-75"><div class="bulle_avis border-transparent text-center text-blue white"><div class="m-top-5px">5</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
-					<a href="#" title="" class="button white text-black w-70">essayer gratuitement</a>
+				<div class="w-35 h-50 flex-col-center-sa blue padding bloc_bordered">
+					<div class="flex-sa w-85"><div class="bulle_avis border-transparent text-center text-blue white"><div class="m-top-5px">1</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
+					<div class="flex-sa w-85"><div class="bulle_avis border-transparent text-center text-blue white"><div class="m-top-5px">2</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
+					<div class="flex-sa w-85"><div class="bulle_avis border-transparent text-center text-blue white"><div class="m-top-5px">3</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
+					<div class="flex-sa w-85"><div class="bulle_avis border-transparent text-center text-blue white"><div class="m-top-5px">4</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
+					<div class="flex-sa w-85"><div class="bulle_avis border-transparent text-center text-blue white"><div class="m-top-5px">5</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
+					<a href="#" title="" class="button white text-black w-80">essayer gratuitement</a>
 				</div>
 
-				<div class="w-60 h-50 flex-col-sa text-black">
+				<div class="w-55 h-50 flex-col-sa text-black">
 					<h2>Comment ça fonctionne ?</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

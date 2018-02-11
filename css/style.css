@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,700');
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	font-family: 'Cabin', 'Arial';
 	font-weight: 400;
+
 }
 
 a {
 	text-decoration: none;
+}
+
+input {
+
+	border: solid 1px grey;
+	border-radius: 5px;
+	padding: 10px;
+
 }
 
 /* ---------- Les TITRES ------------- */
@@ -44,7 +57,7 @@ h3 {
 }
 
 .margin-0 {
-	margin: 0;
+	margin: 0!important;
 }
 
 .m-top-5px {
@@ -115,8 +128,6 @@ h3 {
 	text-align: center;
 	margin-top: 20px;
 }
-
-
 
 /* ---------- Les width et height ------------- */
 
@@ -346,6 +357,32 @@ h3 {
 	align-items: center;
 }
 
+/* --------- Z-INDEX ----------- */
+.z-1 {
+	z-index: 100;
+}
+
+.z-2 {
+	z-index: 500;
+}
+
+.z-3 {
+	z-index: 10000;
+}
+
+/* --------- position absolute, fixed----------- */
+
+.fixed {
+	position: fixed;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.relative {
+	position: relative;
+}
 /* --------- Section avec border radius ----------- */
 
 .bloc_bordered {
@@ -355,6 +392,10 @@ h3 {
 
 .hidden {
 	display: none;
+}
+
+.border_blue {
+    border: 1px solid #62ADFE!important;
 }
 
 /* --------- Header, nav, section, footer ----------- */
@@ -398,7 +439,7 @@ nav ul li {
 	border: 2px white solid;
 	padding: 7px;
 	color: white;
-	width: calc(80%/6);
+	width: calc(100%/6);
 	text-align: center;
 }
 
@@ -421,6 +462,35 @@ header a {
 
 header a:visited {
 	color: white;
+}
+
+.pop_up {
+    position: relative;
+    top: 20vh;
+    left: 30vw;
+
+}
+
+.opacity_2 {
+    background-color: rgba(0,0,0,0.3);
+    height: 100vh;
+    width: 100%;
+}
+
+#ancre {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #62ADFE;
+    z-index: 100;
+    border: white 1px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+button, input[type="submit"], .opacity_2,  nav ul :hover {
+    cursor: pointer;
 }
 
 /* ----------- Home ---------- */
@@ -468,16 +538,4 @@ header a:visited {
 	background-color: rgba(0,0,0,0.6);
 	height: 100vh;
 	width: 100%;
-}
-
-#ancre {
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	background-color: #62ADFE;
-	z-index: 100;
-	border: white 1px solid;
-	border-radius: 50%;
-	width: 50px;
-	height: 50px;
 }
