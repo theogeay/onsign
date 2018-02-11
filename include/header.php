@@ -92,7 +92,7 @@
             <li><a href="apprendre_lsf.html" title="">apprendre la lsf</a></li>
             <li><a href="certifications.html" title="">certifications</a></li>
             <li id="link_connexion"><a href="#" title="">connexion</a></li>
-            <li id="link_inscription" class="nav_btn_inscription"><a href="inscription.html" title="">inscription</a></li>
+            <li id="link_inscription" class="nav_btn_inscription"><a href="#" title="">inscription</a></li>
         </ul>
     </nav>
 </header>
