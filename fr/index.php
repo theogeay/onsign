@@ -34,7 +34,7 @@ include('../include/header.php');
 					<h2>des échanges et des rencontres</h2>
 				</div>
 			<div class="w-100 flex-sb">
-				<div class="w-45">
+				<div class="w-45 h-50">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua.</p>
 
@@ -48,7 +48,7 @@ include('../include/header.php');
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat</p>
 				</div>
-				<div class="w-50">
+				<div class="w-50 h-50">
 					<img src="../images/home_section_communaute.jpg" class="w-85">
 				</div>
 			</div>
@@ -89,7 +89,7 @@ include('../include/header.php');
 		<section>
 			<div class="container">
 			<div class="flex-sb w-100">
-				<div class="w-35 h-50 flex-col-center-sa blue padding bloc_bordered">
+				<div class="w-35 h-55 flex-col-center-sa blue padding bloc_bordered">
 					<div class="flex-sa w-85"><div class="bulle_avis border-transparent text-center text-blue white"><div class="m-top-5px">1</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
 					<div class="flex-sa w-85"><div class="bulle_avis border-transparent text-center text-blue white"><div class="m-top-5px">2</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
 					<div class="flex-sa w-85"><div class="bulle_avis border-transparent text-center text-blue white"><div class="m-top-5px">3</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
@@ -98,7 +98,7 @@ include('../include/header.php');
 					<a href="#" title="" class="button white text-black w-80">essayer gratuitement</a>
 				</div>
 
-				<div class="w-55 h-50 flex-col-sa text-black">
+				<div class="w-55 h-50 flex-col-sa text-black padding">
 					<h2>Comment ça fonctionne ?</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -110,7 +110,7 @@ include('../include/header.php');
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat</p>
 
-					<a href="#" title="" class="button orange text-white w-35">Consulter notre FAQ</a>
+					<a href="#" title="" class="button orange text-white w-45">Consulter notre FAQ</a>
 				</div>
 			</div>
 			</div>
