@@ -117,6 +117,10 @@ h3 {
 	border: 1px transparent solid!important;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 /* ----------- Les buttons ---------- */
 
 .button {
