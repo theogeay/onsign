@@ -89,8 +89,8 @@
     <nav>
         <ul>
             <li><a href="offre.php" title="">nos offres</a></li>
-            <li><a href="apprendre_lsf.html" title="">apprendre la lsf</a></li>
-            <li><a href="certifications.html" title="">certifications</a></li>
+            <li><a href="apprendre_lsf.php" title="">apprendre la lsf</a></li>
+            <li><a href="certification.php" title="">certifications</a></li>
             <li id="link_connexion"><a href="#" title="">connexion</a></li>
             <li id="link_inscription" class="nav_btn_inscription"><a href="#" title="">inscription</a></li>
         </ul>
