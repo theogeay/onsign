@@ -15,6 +15,17 @@ include('../include/header.php');
                 <p>Suite à la réussite à l’examen, un Certificat de Compétences en Langue des Signes Française,
                     en langue seconde lui sera délivré selon le niveau visé.</p>
         </div>
+
+        <div class="w-100 flex-sb">
+            <div class="w-45">
+                <p>frghjklkjbhvgcfxdcfgvhb</p>
+            </div>
+            <div class="w-45">
+                <p>CC-LSF A1, Certificat de Compétences en Langue des Signes Française
+                    – Langue Seconde – Niveau A1, Niveau Introductif :</p>
+                <p><a href="#" class="text-orange bold">Fiche Inventaire CNCP N° 1409</a></p>
+            </div>
+        </div>
     </div>
 
 </section>

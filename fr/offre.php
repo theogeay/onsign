@@ -1,6 +1,6 @@
 <?php
-$title = "Onsign";
-$description = "écrire la meta description de la page";
+$title = "Offre";
+$description = "Description de la page offre";
 include('../include/header.php');
 ?>
 		<section class="blue h-85">
