@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700');
+
+body {
+    margin: 0;
+    font-family: 'Cabin', 'Arial';
+    font-weight: 400;
+
+}
+
+h2 {
+    font-size: 2.2rem;
+    padding: 1rem 0 1.424rem 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.8rem;
+    padding: 1rem 0 1.424rem 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.button {
+    text-transform: uppercase;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 15px;
+    border: transparent 1px solid;
+    width: 25%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#ancre {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #62ADFE;
+    z-index: 100;
+    border: white 1px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.border-transparent {
+    border: 1px transparent solid!important;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+
+/* ---------- HEADER ------------- */
+.nav-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+
+nav ul {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav img {
+    width: 135px;
+    margin-top: 2px;
+}
+
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #fff;
+    display: inline;
+    padding: 7px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px transparent solid;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* ---------- Colors ------------- */
+
+.blue {
+    background-color: #62ADFE!important;
+}
+
+.text-blue {
+    color: #62ADFE!important;
+}
+
+.white {
+    background-color: white!important;
+}
+
+.text-white {
+    color: white!important;
+}
+
+.orange {
+    background-color: #ff6d09!important;
+}
+
+.text-orange {
+    color: #ff6d09!important;
+}
+
+/* ---------- Les width et height ------------- */
+
+.w-100 {
+    width: 100%;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-5 {
+    width: 5%;
+}
+/* ---- hauteur d'un bloc ---- */
+
+.h-100 {
+    height: 100vh;
+}
+
+.h-95 {
+    height: 95vh;
+}
+
+.h-90 {
+    height: 90vh!important;
+}
+
+.h-85 {
+    height: 85vh!important;
+}
+
+.h-80 {
+    height: 80vh;
+}
+
+.h-75 {
+    height: 75vh;
+}
+
+.h-70 {
+    height: 70vh;
+}
+
+.h-65 {
+    height: 65vh;
+}
+
+.h-60 {
+    height: 60vh;
+}
+
+.h-55 {
+    height: 55vh;
+}
+
+.h-50 {
+    height: 50vh;
+}
+
+.h-45 {
+    height: 45vh;
+}
+
+.h-40 {
+    height: 40vh;
+}
+
+.h-35 {
+    height: 35vh;
+}
+
+.h-30 {
+    height: 30vh;
+}
+
+.h-25 {
+    height: 25vh;
+}
+
+.h-20 {
+    height: 20vh;
+}
+
+.h-15 {
+    height: 15vh;
+}
+
+.h-10 {
+    height: 10vh;
+}
+
+.h-5 {
+    height: 5vh;
+}
+
+/*----------- Les FLEX ------------ */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-sa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-start-end {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-col-start-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-col-sa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.flex-col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col-center-sa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*----------- Padding et Margin ------------ */
+
+.padding {
+    padding: 1rem!important;
+}
+
+.padding-2 {
+    padding: 2rem!important;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.margin-0 {
+    margin: 0!important;
+}
+
+/* --------- Section avec border radius ----------- */
+
+.bloc_bordered {
+    border: 1px transparent solid;
+    border-radius: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.border_blue {
+    border: 1px solid #62ADFE!important;
+}
+
+
+
+/*----------- HOME ------------ */
+.home_section_lsf {
+    background: url('../images/home_section_lsf.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.bulle {
+    border: 1px transparent solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+.bulle_avis {
+    border: 2px #ff6d09 solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #ff6d09;
+}
+
+.home_section_certif {
+    background: url('../images/home_section_certif.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.opacity {
+    background-color: rgba(0,0,0,0.6);
+    height: 100vh;
+    width: 100%;
+}
+
+footer > .row {
+    margin-bottom: 0;
+}
+
+.pop_up {
+    position: relative;
+    top: 20vh;
+    left: 30vw;
+
+}
+
+.opacity_2 {
+    background-color: rgba(0,0,0,0.3);
+    height: 100vh;
+    width: 100%;
+}
+

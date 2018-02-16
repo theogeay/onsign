@@ -65,6 +65,10 @@ h3 {
 	margin-top: 5px;
 }
 
+.m-top-1 {
+	margin-top: 1rem;
+}
+
 .padding {
 	padding: 1rem;
 }
@@ -335,10 +339,17 @@ h3 {
 }
 
 .flex-col {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: flex-start;
+	 align-items: flex-start;
+ }
+
+.flex-col-start-center {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	align-items: flex-start;
+	align-items: center;
 }
 
 .flex-col-sa {

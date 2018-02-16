@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?= $description ?>">
     <title><?= $title ?></title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link type="text/css" rel="stylesheet" href="../materialize/css/materialize.min.css"  media="screen,projection"/>
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/style2.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
 </head>
@@ -16,6 +18,7 @@
 <div id="ancre" class="flex-col-center"><a  href="#top" class="text-white"><i class="material-icons">keyboard_arrow_up</i></a></div>
 
 <!-- POP UP CONNEXION -->
+<!--
 <div class="w-100 flex-col-center fixed z-1 hidden" id="pop-up_connexion">
     <div class="opacity_2 h-100 w-100 flex-col-center fixed z-2"></div>
         <div class="w-40 h-60 bloc_bordered white flex-col-center-sa padding z-3 pop_up">
@@ -40,8 +43,9 @@
             </form>
         </div>
     </div>
-
+-->
 <!-- POP UP INSCRIPTION -->
+<!--
 <div class="w-100 flex-col-center fixed z-1 hidden" id="pop-up_inscription">
     <div class="opacity_2 h-100 w-100 flex-col-center fixed z-2"></div>
     <div class="w-40 h-70 bloc_bordered white flex-col-center-sa padding z-3 pop_up">
@@ -84,17 +88,31 @@
     </div>
 </div>
 
-
+-->
 <header id="#top">
-    <nav>
-        <ul>
-            <li><a href="offre.php" title="">nos offres</a></li>
-            <li><a href="apprendre_lsf.php" title="">apprendre la lsf</a></li>
-            <li><a href="certification.php" title="">certifications</a></li>
-            <li id="link_connexion"><a href="#" title="">connexion</a></li>
-            <li id="link_inscription" class="nav_btn_inscription"><a href="#" title="">inscription</a></li>
-        </ul>
+
+    <nav class="blue">
+        <div class="nav-wrapper blue">
+            <a href="index.php" class="brand-logo"><img src="../images/logo.png"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="offre.php" title="">nos offres</a></li>
+                <li><a href="apprendre_lsf.php" title="">apprendre la lsf</a></li>
+                <li><a href="certification.php" title="">certifications</a></li>
+                <li id="link_inscription"><a href="#" title="" class="white text-blue">inscription</a></li>
+                <li id="link_connexion"><a href="#" title="" class="white orange">connexion</a></li>
+
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="offre.php" title="">nos offres</a></li>
+                <li><a href="apprendre_lsf.php" title="">apprendre la lsf</a></li>
+                <li><a href="certification.php" title="">certifications</a></li>
+                <li id="link_connexion"><a href="#" title="">connexion</a></li>
+                <li id="link_inscription" class="nav_btn_inscription"><a href="#" title="">inscription</a></li>
+            </ul>
+        </div>
     </nav>
+
 </header>
 
 

@@ -16,3 +16,5 @@ $('#link_inscription').click(function () {
 $('.opacity_2').click(function() {
     $('#pop-up_inscription').fadeOut();
 });
+
+$(".button-collapse").sideNav();
