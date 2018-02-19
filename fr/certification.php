@@ -7,7 +7,7 @@ include('../include/header.php');
     <div class="container">
         <div class="row flex-col-center padding">
         <h2 class="center-align">Certifications</h2>
-        <div class="col s11 offset-s1">
+        <div class="col s10 offset-s1">
         <p>Concernant la validation de la formation :<p>
         <p class="margin-0">A l’issue de chaque module A1, A2, B1, B2, une attestation de fin de formation
             sera délivrée au stagiaire précisant si les objectifs sont acquis, non acquis ou en cours d’acquisition.</p>

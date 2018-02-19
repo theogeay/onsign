@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce90dd03-c216-42ff-a2d0-781606478bb8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style2.css" afterPath="$PROJECT_DIR$/css/style2.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/certification.php" afterPath="$PROJECT_DIR$/fr/certification.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/offre.php" afterPath="$PROJECT_DIR$/fr/offre.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,21 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style2.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="445" column="32" lean-forward="false" selection-start-line="445" selection-start-column="32" selection-end-line="445" selection-end-column="32" />
+            <state relative-caret-position="3897">
+              <caret line="451" column="0" lean-forward="true" selection-start-line="451" selection-start-column="0" selection-end-line="451" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="certification.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="certification.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fr/certification.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="27" column="105" lean-forward="false" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
+            <state relative-caret-position="135">
+              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -128,8 +126,8 @@
         <option value="$PROJECT_DIR$/include/footer.php" />
         <option value="$PROJECT_DIR$/include/header.php" />
         <option value="$PROJECT_DIR$/fr/offre.php" />
-        <option value="$PROJECT_DIR$/fr/certification.php" />
         <option value="$PROJECT_DIR$/css/style2.css" />
+        <option value="$PROJECT_DIR$/fr/certification.php" />
       </list>
     </option>
   </component>
@@ -330,12 +328,12 @@
       <workItem from="1518529007286" duration="3935000" />
       <workItem from="1518624010900" duration="3167000" />
       <workItem from="1518768938587" duration="10763000" />
-      <workItem from="1519046198012" duration="4862000" />
+      <workItem from="1519046198012" duration="5061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46162000" />
+    <option name="totallyTimeSpent" value="46361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="6" />
@@ -760,14 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fr/certification.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="27" column="105" lean-forward="false" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3105">
@@ -778,8 +768,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="445" column="32" lean-forward="false" selection-start-line="445" selection-start-column="32" selection-end-line="445" selection-end-column="32" />
+        <state relative-caret-position="3897">
+          <caret line="451" column="0" lean-forward="true" selection-start-line="451" selection-start-column="0" selection-end-line="451" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/certification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding />
         </state>
       </provider>
