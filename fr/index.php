@@ -37,7 +37,7 @@ include('../include/header.php');
 					<h2>des échanges et des rencontres</h2>
 				</div>
 			<div class="row">
-				<div class="col s6">
+				<div class="col s12 m6 l6">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua.</p>
 
@@ -51,8 +51,8 @@ include('../include/header.php');
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat</p>
 				</div>
-				<div class="col s6">
-					<img src="../images/home_section_communaute.jpg" class="col s12">
+				<div class="col s12 m6 l6">
+					<img src="../images/home_section_communaute.jpg" class="col s10 offset-s1 m12 l12">
 				</div>
 			</div>
 			</div>
@@ -64,7 +64,7 @@ include('../include/header.php');
                     <h2 class="text-white">votre satisfaction, notre priorité</h2>
                 </div>
             <div class="row white padding bloc_bordered">
-				<div class="col s8">
+				<div class="col s12 m10 offset-m1 l8">
 					<div class="flex-sa">
 						<div class="bulle">
 							<img src="" alt="">
@@ -73,7 +73,7 @@ include('../include/header.php');
 					</div>
             </div>
                 <div class="row section">
-                    <div class="col s8 offset-s2">
+                    <div class="col s12 m8 offset-m2 l8 offset-l2">
                         <p><i>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -84,7 +84,7 @@ include('../include/header.php');
 
 					<p class="col s12 text-orange center-align">Ma note Onsign</p>
                 <div class="row">
-					<div class="col s4 offset-s4 flex-sb margin-auto">
+					<div class="col s8 offset-s2 m4 offset-m4 l4 offset-l4 flex-sb margin-auto">
 						<div class="bulle_avis"></div>
 						<div class="bulle_avis"></div>
 						<div class="bulle_avis"></div>
@@ -99,16 +99,18 @@ include('../include/header.php');
 		<section class="row h-100 flex-col-center">
 			<div class="container">
 			<div class="row">
-				<div class="col s4 flex-col-center-sa blue padding bloc_bordered">
+				<div class="col s12 m5 l4 flex-col-center-sa blue padding bloc_bordered">
 					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">1</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
 					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">2</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
 					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">3</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
 					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">4</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
 					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">5</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
-					<a href="#" title="" class="button white black-text w-80">essayer gratuitement</a>
+					<div class="row">
+                        <a href="#" title="" class="button white black-text col s12">essayer gratuitement</a>
+                    </div>
 				</div>
 
-				<div class="col s7 offset-s1 flex-col-sa padding text-black">
+				<div class="col s12 m6 offset-m1 l7 offset-l1 flex-col-sa padding text-black">
 					<h2>Comment ça fonctionne ?</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -119,8 +121,9 @@ include('../include/header.php');
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat</p>
-
-					<a href="#" title="" class="button orange text-white w-45">Consulter notre FAQ</a>
+                    <div class="row">
+					<a href="#" title="" class="button orange text-white col s12">Consulter notre FAQ</a>
+                    </div>
 				</div>
 			</div>
 			</div>
@@ -130,7 +133,7 @@ include('../include/header.php');
 			<div class="container flex-col-center-sa">
 				<h2 class="text-white">Nos Offres</h2>
 				<div class="row">
-				<div class="col s5 flex-col-center white bloc_bordered padding">
+				<div class="col s12 m5 l5 flex-col-center white bloc_bordered padding">
 					<h3 class="text-blue">Débutant</h3>
 					<p class="margin-0">Vous ne connaissez pas la lsf</p>
 					<p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
@@ -138,7 +141,7 @@ include('../include/header.php');
 					<a href="#" title="" class="button orange text-white w-70">Choisir cette offre</a>
 				</div>
 
-				<div class="col s5 offset-s2 flex-col-center white bloc_bordered padding">
+				<div class="col s12 m5 offset-m2 l5 offset-l2 flex-col-center white bloc_bordered padding">
 					<h3 class="text-blue">Intermédiaire</h3>
 					<p class="margin-0">Vous ne connaissez pas la lsf</p>
 					<p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
@@ -153,7 +156,7 @@ include('../include/header.php');
 			<div class="opacity flex-col-center">
 			<div class="container">
                 <div class="row">
-				<div class="col s6 text-white flex-col">
+				<div class="col s12 m6 l6 text-white flex-col">
 					<h2>Certification Onsign</h2>
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
