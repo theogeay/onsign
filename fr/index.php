@@ -1,6 +1,7 @@
 <?php
 $title = "Onsign";
 $description = "écrire la meta description de la page";
+$main_color = "white";
 include('../include/header.php');
 ?>
 

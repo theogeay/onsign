@@ -116,4 +116,4 @@
 </header>
 
 
-<main>
+<main class="<?= $main_color ?>">
