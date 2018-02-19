@@ -3,7 +3,7 @@ $title = "Offre";
 $description = "Description de la page offre";
 include('../include/header.php');
 ?>
-		<section class="blue padding">
+		<section class="blue">
 			<div class="container flex-col-center-sa">
                 <div class="bloc_bordered white flex-col-center padding">
 				<div class="flex-sb row">
@@ -33,7 +33,7 @@ include('../include/header.php');
 			</div>
 		</section>
 
-<section class="blue padding">
+<section class="blue">
     <div class="container flex-col-center-sa">
         <div class="bloc_bordered white flex-col-center padding">
             <div class="flex-sb row">

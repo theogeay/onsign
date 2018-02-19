@@ -347,6 +347,7 @@ nav ul a {
     align-items: center;
 }
 
+
 /*----------- Padding et Margin ------------ */
 
 .padding {
@@ -436,5 +437,15 @@ footer > .row {
     background-color: rgba(0,0,0,0.3);
     height: 100vh;
     width: 100%;
+}
+
+.certif_margin_bottom {
+    margin-bottom: -200px;
+}
+
+@media screen and (max-width: 480px) {
+    .certif_margin_bottom {
+        margin-bottom: 0;
+    }
 }
 
