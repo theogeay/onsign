@@ -24,7 +24,7 @@ h3 {
 .button {
     text-transform: uppercase;
     color: white;
-    padding: 7px 15px;
+    padding: 7px 15px!important;
     border-radius: 15px;
     border: transparent 1px solid;
     width: 25%;
@@ -351,6 +351,10 @@ nav ul a {
 
 .padding {
     padding: 1rem!important;
+}
+
+.margin {
+    margin: 1rem!important;
 }
 
 .padding-2 {
