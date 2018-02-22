@@ -18,7 +18,7 @@
 <div id="ancre" class="flex-col-center"><a  href="#top" class="text-white"><i class="material-icons">keyboard_arrow_up</i></a></div>
 
 <!-- POP UP CONNEXION -->
-<!--
+
 <div class="w-100 flex-col-center fixed z-1 hidden" id="pop-up_connexion">
     <div class="opacity_2 h-100 w-100 flex-col-center fixed z-2"></div>
         <div class="w-40 h-60 bloc_bordered white flex-col-center-sa padding z-3 pop_up">
@@ -43,25 +43,25 @@
             </form>
         </div>
     </div>
--->
+
 <!-- POP UP INSCRIPTION -->
-<!--
+
 <div class="w-100 flex-col-center fixed z-1 hidden" id="pop-up_inscription">
     <div class="opacity_2 h-100 w-100 flex-col-center fixed z-2"></div>
     <div class="w-40 h-70 bloc_bordered white flex-col-center-sa padding z-3 pop_up">
 
         <h2 class="text-blue">Inscription</h2>
 
-        <form class="flex-col-sa w-55 h-65" method="post" action="#">
+        <form class="flex-col-sa" method="post" action="#">
 
-            <div class="flex-sb w-100">
-                <div class="flex-col-sa w-45 h-10">
+            <div class="row">
+                <div class="col s12 m5 l5">
                     <label for="nom">Nom</label>
-                    <input type="text" name="nom" title="nom" class="w-100">
+                    <input type="text" name="nom" title="nom" class="">
                 </div>
-                <div class="flex-col-sa w-45 h-10">
+                <div class="col s12 m5 offset-m1 l5 offset-l1">
                     <label for="prenom">Prenom</label>
-                    <input type="text" name="prenom" title="prenom" class="w-100">
+                    <input type="text" name="prenom" title="prenom" class="">
                 </div>
             </div>
 
@@ -88,7 +88,7 @@
     </div>
 </div>
 
--->
+
 <header id="#top">
 
     <nav class="blue">

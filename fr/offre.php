@@ -7,6 +7,7 @@ include('../include/header.php');
 
 		<section class="blue padding">
 			<div class="container flex-col-center-sa">
+                <h2 class="white-text">Nos Offres</h2>
                 <div class="bloc_bordered white flex-col-center padding">
 				<div class="flex-sb row">
 				<div class="col s12 m6 l6 flex-col-center">
