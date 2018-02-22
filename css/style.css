@@ -24,6 +24,15 @@ input {
 
 }
 
+textarea {
+	width: 216px;
+	border: solid 1px grey;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 1rem;
+
+}
+
 /* ---------- Les TITRES ------------- */
 
 h1 {
@@ -65,9 +74,16 @@ h3 {
 	margin-top: 5px;
 }
 
+
 .m-top-1 {
 	margin-top: 1rem;
 }
+
+
+.m-bot-10px {
+	margin-bottom: 10px;
+}
+
 
 .padding {
 	padding: 1rem;
