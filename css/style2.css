@@ -21,6 +21,10 @@ h3 {
     text-transform: uppercase;
 }
 
+.size-1 {
+    font-size: 1.4rem;
+}
+
 .button {
     text-transform: uppercase;
     color: white;
@@ -45,13 +49,16 @@ h3 {
 }
 
 
-input {
-
+input, textarea {
     border: solid 1px grey!important;
     border-radius: 5px!important;
     padding: 10px!important;
     font-size: 1rem!important;
+}
 
+label {
+    font-size: 1rem;
+    color: black;
 }
 
 .border-transparent {
@@ -280,6 +287,10 @@ nav ul a {
 .h-5 {
     height: 5vh;
 }
+
+.h-1 {
+    height: 1vh;
+}
 /* --------- Z-INDEX ----------- */
 .z-1 {
     z-index: 100;
@@ -390,6 +401,10 @@ nav ul a {
     padding: 1rem!important;
 }
 
+.p-10 {
+    padding: 10px!important;
+}
+
 .margin {
     margin: 1rem!important;
 }
@@ -399,7 +414,7 @@ nav ul a {
 }
 
 .margin-auto {
-    margin: auto;
+    margin: auto!important;
 }
 
 .margin-0 {
@@ -438,6 +453,14 @@ nav ul a {
     background-color: black;
 }
 
+.bulle_profil {
+    border: 1px transparent solid;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background-color: black;
+}
+
 .bulle_avis {
     border: 2px #ff6d09 solid;
     border-radius: 50%;
@@ -463,6 +486,7 @@ footer > .row {
 }
 
 .pop_up {
+
     position: relative;
     top: 20vh;
     left: 30vw;
@@ -479,9 +503,21 @@ footer > .row {
     margin-bottom: -200px;
 }
 
+.opacity_card {
+    background-color: rgba(0,0,0,0.8);
+}
+
 @media screen and (max-width: 480px) {
     .certif_margin_bottom {
         margin-bottom: 0;
     }
 }
+
+/*----------- Profil  ------------ */
+
+.photoprofil {
+    border-radius: 50%;
+    width: 15%;
+}
+
 
