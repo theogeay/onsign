@@ -18,78 +18,69 @@
 <div id="ancre" class="flex-col-center"><a  href="#top" class="text-white"><i class="material-icons">keyboard_arrow_up</i></a></div>
 
 <!-- POP UP CONNEXION -->
-
-<div class="fixed z-1 hidden" id="pop-up_connexion">
+<div class="w-100 flex-col-center fixed z-1 hidden" id="pop-up_connexion">
     <div class="opacity_2 h-100 w-100 flex-col-center fixed z-2"></div>
-        <div class="bloc_bordered white flex-col-center-sa z-3 pop_up padding">
+    <div class="w-40 h-60 bloc_bordered white flex-col-center-sa padding z-3 pop_up">
 
-            <h2 class="text-blue">Connexion</h2>
+        <h2 class="text-blue">Connexion</h2>
 
-            <form class="flex-col-sa padding" method="post" action="#">
+        <form class="flex-col-sa w-55 h-45" method="post" action="#">
 
-                <div class="row">
-                    <div class="flex-col col s12 m12 l12">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" title="email" class="browser-default">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="flex-col col s12 m12 l12">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" title="password" class="browser-default">
-                    </div>
-                </div>
-                <input type="submit" value="Se connecter" class="button blue w-100">
-                <div class="flex-col-center-sa w-100">
-                    <a href="#">Mot de passe oublié ?</a>
-                    <a href="#">S'incrire</a>
-                </div>
-            </form>
-        </div>
+            <div class="flex-col-sa w-100 h-10">
+                <label for="email">Email</label>
+                <input type="email" name="email" title="email" class="w-100">
+            </div>
+            <div class="flex-col-sa w-100 h-10">
+                <label for="password">Password</label>
+                <input type="password" name="password" title="password" class="w-100">
+            </div>
+            <input type="submit" value="Se connecter" class="button blue w-100">
+            <div class="flex-col-center-sa w-100 h-5">
+                <a href="#">Mot de passe oublié ?</a>
+                <a href="#">S'incrire</a>
+            </div>
+        </form>
     </div>
+</div>
 
 <!-- POP UP INSCRIPTION -->
-
-<div class="row fixed z-1 hidden" id="pop-up_inscription">
+<div class="w-100 flex-col-center fixed z-1 hidden" id="pop-up_inscription">
     <div class="opacity_2 h-100 w-100 flex-col-center fixed z-2"></div>
-    <div class="col s10 offset-s1 m10 offset-m2 l10 offset-l9 bloc_bordered white flex-col-center-sa z-3 pop_up">
+    <div class="w-40 h-70 bloc_bordered white flex-col-center-sa padding z-3 pop_up">
 
         <h2 class="text-blue">Inscription</h2>
 
-        <form class="flex-col-center-sa padding" method="post" action="#">
+        <form class="flex-col-sa w-55 h-65" method="post" action="#">
 
-            <div class="row">
-                <div class="flex-sb col s12 m5 l5">
-                    <label for="nom" class="browser-default">Nom</label>
-                    <input type="text" name="nom" title="nom" class="browser-default">
+            <div class="flex-sb w-100">
+                <div class="flex-col-sa w-45 h-10">
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" title="nom" class="w-100">
                 </div>
-
-                <div class="flex-sb col s12 m5 offset-m1 l5 offset-l1 ">
-                    <label for="prenom" class="browser-default">Prenom</label>
-                    <input type="text" name="prenom" title="prenom" class="browser-default">
+                <div class="flex-col-sa w-45 h-10">
+                    <label for="prenom">Prenom</label>
+                    <input type="text" name="prenom" title="prenom" class="w-100">
                 </div>
             </div>
 
-            <div class="row">
-                <div class="flex-sb col s12 m5 l5 ">
+            <div class="flex-sb w-100">
+                <div class="flex-col-sa w-45 h-10">
                     <label for="password">Password</label>
-                    <input type="password" name="password" title="password" class="browser-default">
+                    <input type="password" name="password" title="password" class="w-100">
                 </div>
-                <div class="flex-sb col s12 m5 offset-m1 l5 offset-l1 ">
+                <div class="flex-col-sa w-45 h-10">
                     <label for="tel">Téléphone</label>
-                    <input type="tel" name="tel" title="tel" class="browser-default">
+                    <input type="tel" name="tel" title="tel" class="w-100">
                 </div>
             </div>
 
-            <div class="row">
-                <div class="flex-sb col s12 m12 l12">
+            <div class="flex-col-sa w-100 h-10">
                 <label for="adresse">Adresse</label>
-                <input type="text" name="adresse" title="adresse" class="browser-default w-100">
-                </div>
+                <input type="text" name="adresse" title="adresse" class="w-100">
             </div>
             <div class="flex-col-center-sa w-100 h-15">
-                <a href="#" class="button text-blue border_blue w-80 margin-0">Voir les offres</a>
-                <input type="submit" value="Essayer gratuitement" class="button blue w-80 margin-0">
+                <a href="#" class="button text-blue border_blue w-100 margin-0">Voir les offres</a>
+                <input type="submit" value="Essayer gratuitement" class="button blue w-100 margin-0">
             </div>
         </form>
     </div>
