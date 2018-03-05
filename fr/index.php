@@ -58,7 +58,7 @@ include('../include/header.php');
 			</div>
 		</section>
 
-		<section class="blue h-100 flex-col-center">
+		<section class="blue h-100 h-inerit flex-col-center">
 			<div class="container section">
                 <div class="row center-align">
                     <h2 class="text-white">votre satisfaction, notre priorité</h2>
@@ -84,7 +84,7 @@ include('../include/header.php');
 
 					<p class="col s12 text-orange center-align">Ma note Onsign</p>
                 <div class="row">
-					<div class="col s8 offset-s2 m4 offset-m4 l4 offset-l4 flex-sb margin-auto">
+					<div class="col s8 offset-s2 m4 offset-m4 l4 offset-l4 flex-sb">
 						<div class="bulle_avis"></div>
 						<div class="bulle_avis"></div>
 						<div class="bulle_avis"></div>
@@ -96,10 +96,10 @@ include('../include/header.php');
         </div>
 		</section>
 		
-		<section class="row h-100 flex-col-center">
+		<section class="row h-100 h-inerit flex-col-center">
 			<div class="container">
 			<div class="row">
-				<div class="col s12 m5 l4 flex-col-center-sa blue padding bloc_bordered">
+				<div class="col s12 m5 l4 flex-col-center-sa blue padding bloc_bordered m-s">
 					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">1</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
 					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">2</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
 					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">3</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
@@ -129,11 +129,11 @@ include('../include/header.php');
 			</div>
 		</section>
 
-		<section class="blue h-100 flex-col-center">
+		<section class="blue h-100 h-inerit flex-col-center">
 			<div class="container flex-col-center-sa">
 				<h2 class="text-white">Nos Offres</h2>
 				<div class="row">
-				<div class="col s12 m5 l5 flex-col-center white bloc_bordered padding">
+				<div class="col s12 m5 l5 flex-col-center white bloc_bordered padding m-s">
 					<h3 class="text-blue">Débutant</h3>
 					<p class="margin-0">Vous ne connaissez pas la lsf</p>
 					<p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
@@ -141,7 +141,7 @@ include('../include/header.php');
 					<a href="#" title="" class="button orange text-white w-70">Choisir cette offre</a>
 				</div>
 
-				<div class="col s12 m5 offset-m2 l5 offset-l2 flex-col-center white bloc_bordered padding">
+				<div class="col s12 m5 offset-m2 l5 offset-l2 flex-col-center white bloc_bordered padding m-s">
 					<h3 class="text-blue">Intermédiaire</h3>
 					<p class="margin-0">Vous ne connaissez pas la lsf</p>
 					<p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
