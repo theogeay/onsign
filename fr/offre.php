@@ -16,7 +16,7 @@ include('../include/header.php');
 					<p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
 					<img src="../images/offres.png" class="w-90">
                     <div class="row">
-                        <a href="#" title="" class="button orange text-white w-50 col s12">Choisir cette offre</a>
+                        <a href="#" title="" class="button orange text-white w-100 col s12">Choisir cette offre</a>
                     </div>
 				</div>
 
@@ -48,7 +48,7 @@ include('../include/header.php');
                     <p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
                     <img src="../images/offres.png" class="w-90">
                     <div class="row">
-                        <a href="#" title="" class="button orange text-white w-50 col s12">Choisir cette offre</a>
+                        <a href="#" title="" class="button orange text-white col s12">Choisir cette offre</a>
                     </div>
 
                 </div>

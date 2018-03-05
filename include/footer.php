@@ -1,6 +1,6 @@
 <footer class="blue">
     <div class="row">
-    <div class="flex-sa col s8">
+    <div class="flex-sa col s12">
         <p><a href="#" class="text-white">Copyright</a></p>
         <p><a href="#" class="text-white">Mentions légales</a></p>
         <p><a href="#" class="text-white">Données personnelles</a></p>

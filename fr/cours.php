@@ -28,14 +28,14 @@ include('../include/header_cours.php');// nav + pop up
             </div>
         </div>
         <div class="row">
-            <div class="col s12 m3 l3 h-55 flex-col-center-sa blue bloc_bordered">
+            <div class="col s12 m4 l3 h-55 flex-col-center-sa blue bloc_bordered m-s">
                 <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">1</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
                 <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">2</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
                 <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">3</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
                 <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">4</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
                 <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">5</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
             </div>
-            <div class="col s12 m9 l9">
+            <div class="col s12 m8 l9">
             <div class="video-container">
                 <iframe src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>

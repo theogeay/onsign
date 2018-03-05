@@ -28,14 +28,14 @@ include('../include/header_cours.php');// nav + pop up
             </div>
         </div>
         <div class="row">
-            <div class="col s12 m3 l3 h-55 flex-col-center-sa blue bloc_bordered">
+            <div class="col s12 m4 l3 h-55 flex-col-center-sa blue bloc_bordered m-s">
                 <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">1</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
                 <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">2</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
                 <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">3</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
                 <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">4</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
                 <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">5</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
             </div>
-            <div class="col s12 m9 l9">
+            <div class="col s12 m8 l9">
             <div class="video-container">
                 <iframe src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
@@ -49,14 +49,14 @@ include('../include/header_cours.php');// nav + pop up
 
 </section>
 
-<section class="h-100 blue flex-col-center">
+<section class="h-100 h-inerit blue flex-col-center">
 
     <div class="container flex-col-center-sa">
         <h2 class="text-white">Nos Offres</h2>
         <div class="row"></div>
 
         <div class="row">
-            <div class="col s12 m5 l5 flex-col-center white bloc_bordered padding">
+            <div class="col s12 m5 l5 flex-col-center white bloc_bordered padding m-s">
                 <h3 class="text-blue">Débutant</h3>
                 <p class="margin-0">Vous ne connaissez pas la lsf</p>
                 <p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
@@ -64,7 +64,7 @@ include('../include/header_cours.php');// nav + pop up
                 <a href="#" title="" class="button orange text-white w-70">Choisir cette offre</a>
             </div>
 
-            <div class="col s12 m5 offset-m2 l5 offset-l2 flex-col-center white bloc_bordered padding">
+            <div class="col s12 m5 offset-m2 l5 offset-l2 flex-col-center white bloc_bordered padding m-s">
                 <h3 class="text-blue">Intermédiaire</h3>
                 <p class="margin-0">Vous ne connaissez pas la lsf</p>
                 <p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
