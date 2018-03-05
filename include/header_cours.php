@@ -66,7 +66,7 @@
                     </div>
 
                     <div class="">
-                        <a href="#" class="button white bloc_bordered text-blue">Déconnexion</a>
+                        <a href="../admin/logout.php" class="button white bloc_bordered text-blue">Déconnexion</a>
                     </div>
 
                 </div>
