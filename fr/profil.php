@@ -1,6 +1,8 @@
 <?php
 $title = "Votre profil";
 $description = "écrire la meta description de la page";
+
+require_once ('../admin/controle-de-session.php');
 include('../include/header.php');
 ?>
 <section class="blue">

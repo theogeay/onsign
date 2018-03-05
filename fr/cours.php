@@ -3,6 +3,7 @@ $title = "Cours"; // titre de la page
 $description = "écrire la meta description de la page"; // métadescription de la page
 $main_color = "white"; // background_color du main
 
+require_once ('../admin/controle-de-session.php');
 include('../include/header_cours.php');// nav + pop up
 
 // systeme de grid en 12 colonnes fait avec le css de materialize
