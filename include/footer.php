@@ -2,9 +2,8 @@
     <div class="row">
     <div class="flex-sa col s12">
         <p><a href="#" class="text-white">Copyright</a></p>
-        <p><a href="#" class="text-white">Mentions légales</a></p>
+        <p><a href="../fr/mentions_legales.php" class="text-white">Mentions légales</a></p>
         <p><a href="#" class="text-white">Données personnelles</a></p>
-        <p><a href="#" class="text-white">Consulter notre FAQ</a></p>
         <p><a href="#" class="text-white">Contact</a></p>
     </div>
     </div>

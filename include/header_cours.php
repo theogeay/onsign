@@ -58,11 +58,11 @@
                 <div class="row flex-sa">
 
                     <div class="">
-                        <a href="#" class="button bloc_bordered text-white">Cours</a>
+                        <a href="../fr/cours.php" class="button bloc_bordered text-white">Cours</a>
                     </div>
 
                     <div class="">
-                        <a href="#" class="button bloc_bordered text-white">Certifications</a>
+                        <a href="../fr/tchat.php" class="button bloc_bordered text-white">Certifications</a>
                     </div>
 
                     <div class="">
