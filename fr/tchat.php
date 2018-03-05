@@ -4,7 +4,7 @@ $description = "écrire la meta description de la page";
 include('../include/header_cours.php');
 ?>
 
-<section class="white flex-col z-depth-3">
+<section class="white flex-col">
     <div class="container">
         <div class="row">
             <div class="col s12 blue text-white center-align">

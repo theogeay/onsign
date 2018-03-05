@@ -1,5 +1,5 @@
 <?php
-$title = "Cours"; // titre de la page
+$title = "Cours Gratuit"; // titre de la page
 $description = "écrire la meta description de la page"; // métadescription de la page
 $main_color = "white"; // background_color du main
 
