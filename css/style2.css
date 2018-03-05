@@ -56,6 +56,11 @@ input, textarea {
     font-size: 1rem!important;
 }
 
+.border-grey {
+    border: solid 1px lightgray!important;
+    border-radius: 0!important;
+}
+
 label {
     font-size: 1rem;
     color: black;
@@ -399,6 +404,10 @@ nav ul a {
 
 .padding {
     padding: 1rem!important;
+}
+
+.p-0 {
+    padding: 0!important;
 }
 
 .p-10 {
