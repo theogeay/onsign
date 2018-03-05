@@ -11,4 +11,3 @@ try {
 } catch (PDOException $exception) {
     die($exception->getMessage());
 }
-require_once ('controle-de-session.php');

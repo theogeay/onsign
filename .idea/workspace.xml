@@ -5,13 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/connect.php" afterPath="$PROJECT_DIR$/admin/connect.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controle-de-session.php" afterPath="$PROJECT_DIR$/admin/controle-de-session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/certification_irl.php" afterPath="$PROJECT_DIR$/fr/certification_irl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/cours.php" afterPath="$PROJECT_DIR$/fr/cours.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/cours_gratuit.php" afterPath="$PROJECT_DIR$/fr/cours_gratuit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/dashboard.php" afterPath="$PROJECT_DIR$/fr/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/profil.php" afterPath="$PROJECT_DIR$/fr/profil.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/quizz.php" afterPath="$PROJECT_DIR$/fr/quizz.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/tchat.php" afterPath="$PROJECT_DIR$/fr/tchat.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/admin/connect.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
               </folding>
@@ -79,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/fr/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="50" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,20 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cours_gratuit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fr/cours_gratuit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
+            <state relative-caret-position="230">
               <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <marker date="1520290331029" expanded="true" signature="177:230" ph="SELECT `id`,... users" />
@@ -121,8 +104,18 @@
       <file leaf-file-name="controle-de-session.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/controle-de-session.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -164,14 +157,14 @@
         <option value="$PROJECT_DIR$/include/header_cours.php" />
         <option value="$PROJECT_DIR$/admin/logout.php" />
         <option value="$PROJECT_DIR$/admin/login.php" />
-        <option value="$PROJECT_DIR$/fr/dashboard.php" />
-        <option value="$PROJECT_DIR$/admin/controle-de-session.php" />
         <option value="$PROJECT_DIR$/fr/cours_gratuit.php" />
         <option value="$PROJECT_DIR$/fr/cours.php" />
         <option value="$PROJECT_DIR$/fr/certification_irl.php" />
         <option value="$PROJECT_DIR$/fr/profil.php" />
         <option value="$PROJECT_DIR$/fr/quizz.php" />
         <option value="$PROJECT_DIR$/fr/tchat.php" />
+        <option value="$PROJECT_DIR$/fr/dashboard.php" />
+        <option value="$PROJECT_DIR$/admin/controle-de-session.php" />
         <option value="$PROJECT_DIR$/admin/connect.php" />
       </list>
     </option>
@@ -367,12 +360,12 @@
       <workItem from="1519306304828" duration="6043000" />
       <workItem from="1519811257043" duration="1186000" />
       <workItem from="1520182268753" duration="9809000" />
-      <workItem from="1520257179452" duration="17497000" />
+      <workItem from="1520257179452" duration="18195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84124000" />
+    <option name="totallyTimeSpent" value="84822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="6" />
@@ -404,7 +397,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -711,14 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/sign_in.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -734,33 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1047">
           <caret line="87" column="64" lean-forward="false" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <marker date="1520290331029" expanded="true" signature="177:230" ph="SELECT `id`,... users" />
-            <marker date="1520290331029" expanded="true" signature="177:236" ph="SELECT `id`,... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controle-de-session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fr/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -813,10 +773,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fr/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <marker date="1520290331029" expanded="true" signature="177:230" ph="SELECT `id`,... users" />
+            <marker date="1520290331029" expanded="true" signature="177:236" ph="SELECT `id`,... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controle-de-session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#6#94#0#PHP" expanded="true" />
           </folding>
