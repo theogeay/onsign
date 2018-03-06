@@ -1,7 +1,6 @@
 <?php
 // On démarre la session
-session_start ();
-
+require_once ('../admin/controle-de-session.php');
 // On détruit les variables de notre session
 session_unset ();
 
