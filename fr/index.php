@@ -5,7 +5,7 @@ $main_color = "white";
 include('../include/header.php');
 ?>
 
-		<section class="home_section_lsf h-95 flex-col-center">
+		<section class="home_section_lsf h-95 h-inerit flex-col-center">
 			<div class="container">
 				<div class="row text-white">
                     <div class="col s10 offset-s1 col m6 offset-m6 col l6 offset-l6 ">
@@ -30,7 +30,7 @@ include('../include/header.php');
 			</div>
 		</section>
 
-		<section class="white h-100 flex-col-center">
+		<section class="white h-100 h-inerit flex-col-center">
 			<div class="container">
 				<div class="text-black">
 					<h2>Une Communaté</h2>
@@ -152,7 +152,7 @@ include('../include/header.php');
 			</div>
 		</section>
 
-		<section class="home_section_certif">
+		<section class="home_section_certif h-inerit">
 			<div class="opacity flex-col-center">
 			<div class="container">
                 <div class="row">
