@@ -83,15 +83,17 @@ label {
 }
 
 
-nav ul {
+nav ul {@
     width: 75%;
     display: flex;
     justify-content: space-around;
 }
 
 nav img {
-    width: 135px;
-    margin-top: 2px;
+    width: 150px;
+    position: relative;
+    top: -9px;
+
 }
 
 nav ul a {
@@ -535,6 +537,37 @@ footer > .row {
 .photoprofil {
     border-radius: 50%;
     width: 15%;
+}
+
+/*----------- back-end  ------------ */
+
+.p-300 {
+    padding-left: 300px;
+}
+
+.nav_back {
+    display: none;
+}
+
+@media only screen and (max-width: 992px){
+
+    .p-300 {
+        padding-left: 0;
+    }
+
+    .nav_back {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+    }
+
+    .menu_back {
+        position: fixed;
+        top: 35px;
+        left: 25px;
+    }
+
 }
 
 
