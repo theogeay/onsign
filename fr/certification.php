@@ -1,6 +1,6 @@
 <?php
 $title = "Certification";
-$description = "écrire la meta description de la page";
+$description = "éLes certifications LSF ONSIGN vous permettront d'apprendre la langue des signes française et d'obtenir une certification reconnue rapidement ";
 $main_color = "white";
 include('../include/header.php');
 ?>

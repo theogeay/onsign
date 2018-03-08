@@ -1,6 +1,6 @@
 <?php
 $title = "Apprendre la LSF";
-$description = "écrire la meta description de la page";
+$description = "Pourquoi apprendre la langue des signes ? Apprentissage de LSF en ligne à moindre coût avec ONSIGN";
 $main_color = "white";
 include('../include/header.php');
 ?>

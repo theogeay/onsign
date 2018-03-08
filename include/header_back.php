@@ -11,16 +11,17 @@
     <link rel="stylesheet" href="../css/style2.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
 </head>
 <body>
 
 <ul id="slide-out" class="side-nav fixed blue">
     <li class="center-align"><img src="../images/logo.png" class="w-65"></li>
-    <li><a href="#!" class="text-white">Dashboard</a></li>
-    <li><a href="#!" class="text-white">Cours</a></li>
+    <li><a href="../admin/back_end.php" class="text-white">Dashboard</a></li>
+    <li><a href="../admin/back_cours.php" class="text-white">Cours</a></li>
     <li><a href="#!" class="text-white">Quizz</a></li>
     <li><a href="#!" class="text-white">Comptes</a></li>
-    <li><a href="#!" class="text-white">Déconnexion</a></li>
+    <li><a href="../admin/logout.php" class="text-white">Déconnexion</a></li>
 </ul>
 
 <div class="nav_back blue flex-col-center h-15 col row">
@@ -29,3 +30,6 @@
 </div>
 
 <main class="<?= $main_color ?> p-300">
+    <div class="row blue">
+        <h1 class="container"><?= $titre ?></h1>
+    </div>

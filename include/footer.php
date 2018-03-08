@@ -1,7 +1,9 @@
-<footer class="blue">
+</main>
+<footer class="blue page-footer">
     <div class="row">
     <div class="flex-sa col s12">
         <p><a href="#" class="text-white">Copyright</a></p>
+        <p><a href="../fr/faq.php" class="text-white">FAQ</a></p>
         <p><a href="../fr/mentions_legales.php" class="text-white">Mentions légales</a></p>
         <p><a href="#" class="text-white">Données personnelles</a></p>
         <p><a href="#" class="text-white">Contact</a></p>
@@ -14,6 +16,6 @@
 <script src="../js/pop-up.js"></script>
 <script src="../js/envoi.js"></script>
 
-</main>
+
 </body>
 </html>

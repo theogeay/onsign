@@ -1,6 +1,6 @@
 <?php
 $title = "Offre";
-$description = "Description de la page offre";
+$description = "Les offres ONSIGN vous permettent d’apprendre rapidement et à moindre coût pour une formation en ligne de la langue des signes française en ligne";
 $main_color = "blue";
 include('../include/header.php');
 ?>

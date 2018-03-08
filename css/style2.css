@@ -7,8 +7,19 @@ body {
 
 }
 
+h1{
+    font-family: Gravity-Bold, 'Cabin';
+    font-size: 48px;
+    color: #FFFFFF;
+    padding: 1rem 0 1.424rem 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
 h2 {
-    font-size: 2.2rem;
+    font-family: Cabin-SemiBold, 'Cabin';
+    font-size: 20px;
+    color: #7C7C7C;
     padding: 1rem 0 1.424rem 0;
     margin: 0;
     text-transform: uppercase;
@@ -19,6 +30,10 @@ h3 {
     padding: 1rem 0 1.424rem 0;
     margin: 0;
     text-transform: uppercase;
+}
+
+main {
+    min-height: 80vh;
 }
 
 .size-1 {
@@ -83,7 +98,7 @@ label {
 }
 
 
-nav ul {@
+nav ul {
     width: 75%;
     display: flex;
     justify-content: space-around;

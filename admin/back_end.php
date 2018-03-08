@@ -2,6 +2,7 @@
 $title = "Onsign - Back end"; // titre de la page
 $description = "écrire la meta description de la page"; // métadescription de la page
 $main_color = "white"; // background_color du main
+$titre = "Back-end";
 
 include('../include/header_back.php');// nav + pop up
 
@@ -15,15 +16,10 @@ include('../include/header_back.php');// nav + pop up
 
 <section class="white flex-col-center">
     <div class="container">
-        <div class="row">
-            <div class="col s12 m12 l12">
-
-            </div>
-        </div>
 
     </div>
 </section>
 
-<?php include('../include/footer.php');
+<?php include('../include/footer_back.php');
 
 

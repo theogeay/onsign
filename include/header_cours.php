@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/style2.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
 </head>
 <body>
 

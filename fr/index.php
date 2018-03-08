@@ -1,6 +1,6 @@
 <?php
 $title = "Onsign";
-$description = "écrire la meta description de la page";
+$description = "Apprendre la LSF avec nos formations simples et rapides en ligne de la langue des signes Française.";
 $main_color = "white";
 include('../include/header.php');
 ?>
@@ -153,7 +153,7 @@ include('../include/header.php');
 		</section>
 
 		<section class="home_section_certif h-inerit">
-			<div class="opacity flex-col-center">
+			<div class="opacity flex-col-center h-inerit">
 			<div class="container">
                 <div class="row">
 				<div class="col s12 m6 l6 text-white flex-col">
@@ -173,6 +173,9 @@ include('../include/header.php');
 						consequat</p>
 
 				</div>
+                    <div class="col s12 m6 l6 push-l1 padding">
+                        <img src="../images/certif.png" class="col s10 offset-s1 m12 l12">
+                    </div>
                 </div>
 			</div>
 			</div>
