@@ -12,6 +12,7 @@ $stmt = $pdo->prepare($sql);
 $stmt->bindValue(':id', $_SESSION['id']);
 $stmt->execute();
 $value = $stmt -> fetch();
+
 if(isset($_POST['envoyer'])){
 	
 	if(!isset($_GET['id'])){
@@ -19,7 +20,8 @@ if(isset($_POST['envoyer'])){
 }
 	
 	//modification
-$modif = "UPDATE users SET 
+    if(isset($_POST['envoyer'])) {
+        $modif = "UPDATE users SET 
 nom = :nom, 
 prenom = :prenom, 
 mail = :mail, 
@@ -29,20 +31,21 @@ mdp = :mdp,
 pseudo = :pseudo, 
 photo = :photo 
 WHERE id = :id";
-    $stmt2 = $pdo->prepare($modif);
-  	$stmt2->bindValue(':id', $_SESSION['id']);
-    $stmt2->bindValue(':prenom', $_POST['prenom']);
-    $stmt2->bindValue(':nom', $_POST['nom']);
-    $stmt2->bindValue(':mail', $_POST['mail']);
-    $stmt2->bindValue(':adresse', $_POST['adresse']);
-    $stmt2->bindValue(':telephone', $_POST['telephone']);
-    $stmt2->bindValue(':mdp', $_POST['mdp']);
-    $stmt2->bindValue(':pseudo', $_POST['pseudo']);
-    $stmt2->bindValue(':photo', $_POST['photo']);
-    var_dump($stmt2->execute());
+        $stmt2 = $pdo->prepare($modif);
+        $stmt2->bindValue(':id', $_SESSION['id']);
+        $stmt2->bindValue(':prenom', $_POST['prenom']);
+        $stmt2->bindValue(':nom', $_POST['nom']);
+        $stmt2->bindValue(':mail', $_POST['mail']);
+        $stmt2->bindValue(':adresse', $_POST['adresse']);
+        $stmt2->bindValue(':telephone', $_POST['telephone']);
+        $stmt2->bindValue(':mdp', $_POST['mdp']);
+        $stmt2->bindValue(':pseudo', $_POST['pseudo']);
+        $stmt2->bindValue(':photo', $_POST['photo']);
+        var_dump($stmt2->execute());
 //    var_dump($stmt2->errorInfo());
-    header('Location: profil.php');
-    die();
+        header('Location: profil.php');
+        die();
+    }
 
 }
 
