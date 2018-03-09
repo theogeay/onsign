@@ -8,34 +8,34 @@
 $title = "Onsign - Back end"; // titre de la page
 $description = "écrire la meta description de la page"; // métadescription de la page
 $main_color = "white";// background_color du main
-$titre = "Ajouter";
+$titre = "Quizz";
 
 
-require_once ('../admin/connect.php');
+require_once('../admin/connect.php');
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     $sql = "INSERT INTO `cours`(`titre`, `niveau`, `texte_cours`, `video_cours`) 
     VALUES (:titre, :niveau, :texte_cours, :video_cours)";
     $stmt = $pdo->prepare($sql);
-    $stmt->bindValue(':titre', $_POST['titre']);
-    $stmt->bindValue(':niveau', $_POST['niveau']);
-    $stmt->bindValue(':texte_cours', $_POST['texte_cours']);
-    $stmt->bindValue(':video_cours', $_POST['video_cours']);
+    $stmt->bindValue(':titre', $_POST['titre'], PDO::PARAM_STR);
+    $stmt->bindValue(':niveau', $_POST['niveau'], PDO::PARAM_STR);
+    $stmt->bindValue(':texte_cours', $_POST['texte_cours'], PDO::PARAM_STR);
+    $stmt->bindValue(':video_cours', $_POST['video_cours'], PDO::PARAM_STR);
     $stmt->execute();
     if($stmt->errorCode() !== '00000'){
         die($stmt->errorInfo()[2]);
     }
-    header('Location: back_cours.php');
+    header('Location: back_quizz.php');
     die();
 }
 
 include('../include/header_back.php');?>
 
-<section class="blue">
+<section class="white">
     <div class="container">
         <div class="row padding">
-            <h2 class="center-align white-text">Ajouter Cours</h2>
+            <h2 class="center-align blue-text">Ajouter un Cours</h2>
         </div>
 
         <form class="" method="post" action="<?= $_SERVER['PHP_SELF'] ?>">
@@ -46,8 +46,8 @@ include('../include/header_back.php');?>
             </div>
 
             <div class="row">
-                <label for="niveau" class="browser-default col offset-m1 m3 offset-l1 l3 s10 offset-s1 p-10">Niveau</label>
-                <select title="niveau" name="niveau" class="browser-default col s10 offset-s1 m7 l7">
+                <label for="niveau1" class="browser-default col offset-m1 m3 offset-l1 l3 s10 offset-s1 p-10">Niveau</label>
+                <select title="niveau1" name="niveau" class="browser-default col s10 offset-s1 m7 l7">
                     <option value="A1" selected>A1</option>
                     <option value="A2">A2</option>
                     <option value="B1">B1</option>

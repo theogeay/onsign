@@ -19,17 +19,17 @@
     <li class="center-align"><img src="../images/logo.png" class="w-65"></li>
     <li><a href="../admin/back_end.php" class="text-white">Dashboard</a></li>
     <li><a href="../admin/back_cours.php" class="text-white">Cours</a></li>
-    <li><a href="#!" class="text-white">Quizz</a></li>
-    <li><a href="#!" class="text-white">Comptes</a></li>
+    <li><a href="../admin/back_quizz.php" class="text-white">Quizz</a></li>
+    <li><a href="../admin/back_users.php" class="text-white">Comptes</a></li>
     <li><a href="../admin/logout.php" class="text-white">Déconnexion</a></li>
 </ul>
 
-<div class="nav_back blue flex-col-center h-15 col row">
+<div class="nav_back blue flex-col-center h-15 col row box-shadow">
     <div class="menu_back"><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons text-white">menu</i></a></div>
     <img src="../images/logo.png" class="w-40">
 </div>
 
 <main class="<?= $main_color ?> p-300">
-    <div class="row blue">
-        <h1 class="container"><?= $titre ?></h1>
+    <div class="row blue box-shadow">
+        <h1 class="container center-align"><?= $titre ?></h1>
     </div>

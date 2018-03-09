@@ -2,7 +2,7 @@
 $title = "Onsign - Back end"; // titre de la page
 $description = "écrire la meta description de la page"; // métadescription de la page
 $main_color = "white";// background_color du main
-$titre = "Cours";
+$titre = "Quizz";
 
 include('../include/header_back.php');// nav + pop up
 require_once('../admin/connect.php');
@@ -23,7 +23,7 @@ $cours = $stmt -> fetchAll();
 
 <section class="white flex-col-center">
     <div class="container">
-        <h4><a href="ajouter_cours.php">Ajouter un cours</a></h4>
+        <h4><a href="ajouter_quizz.php">Ajouter un quizz</a></h4>
         <table class="responsive-table highlight">
             <thead>
             <tr>
@@ -44,12 +44,12 @@ $cours = $stmt -> fetchAll();
                 <td><?= $value['texte_cours'] ?></td>
                 <td><?= $value['video_cours'] ?></td>
                 <td>
-                    <a href="modifier_cours.php?id=<?=$value['id_cours']?>">
+                    <a href="modifier_quizz.php?id=<?=$value['id_cours']?>">
                         <i class="material-icons">create</i>
                     </a>
                 </td>
                 <td>
-                    <a onclick="return confirm('T sûr ??')" href="supprimer_cours.php?id=<?=$value['id_cours']?>">
+                    <a onclick="return confirm('T sûr ??')" href="supprimer_quizz.php?id=<?=$value['id_cours']?>">
                         <i class="material-icons text-orange">delete</i>
                     </a>
                 </td>
