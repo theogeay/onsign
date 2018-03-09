@@ -6,7 +6,7 @@ include('../include/header.php');
 ?>
 <section class="flex-col-center">
 	<div class="container"> 
-<h1>Apprendre la LSF</h1>
+<h1 class="black-text">Apprendre la LSF</h1>
 	 <div class="col s12 m8 l12">
         <div class="card-panel grey lighten-5 z-depth-1">
           <div class="row valign-wrapper">

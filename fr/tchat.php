@@ -2,6 +2,7 @@
 
 $title = "Onsign";
 $description = "écrire la meta description de la page";
+$main_color = "grey";
 
 require_once('../admin/connect.php');
 require_once ('../admin/controle-de-session.php');
@@ -11,13 +12,13 @@ $resultat = $pdo->query('SELECT `id_message`, `id_user`, `message`, `date_time` 
 
 $messages = $resultat->fetchAll(PDO::FETCH_ASSOC);
 ?>
-
-<section class="white flex-col">
-    <div class="container">
-        <div class="row" id="titreMessages">
-            <div class="col s12 blue text-white center-align">
-                <h3>Conversation avec Kyle d'Onsign</h3>
-            </div>
+<div class="row"></div>
+<div class="container col s12 blue center-align z-depth-3">
+    <h2 class="white-text">Tchat + date</h2>
+</div>
+<section class="grey flex-col h-65" style="overflow: auto">
+    <div class="container white padding z-depth-3">
+        <div id="titreMessages">
         </div>
 
         <?php if(!empty($msg)) { echo $msg; } ?>
@@ -51,7 +52,9 @@ $messages = $resultat->fetchAll(PDO::FETCH_ASSOC);
         endforeach;
         ?>
 
-        <div class="row">
+    </div>
+</section>
+        <div class="row container z-depth-3">
             <form method="post" id="formMessage" action="#">
             <div class="col s10 p-0">
                <input type="text" name="message" id="message" placeholder="écrire un message" class="browser-default w-100 border-grey">
@@ -62,8 +65,7 @@ $messages = $resultat->fetchAll(PDO::FETCH_ASSOC);
             </form>
         </div>
 
-    </div>
-</section>
+
 
 
 

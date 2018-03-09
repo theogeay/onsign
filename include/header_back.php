@@ -8,7 +8,7 @@
     <title><?= $title ?></title>
     <link type="text/css" rel="stylesheet" href="../materialize/css/materialize.min.css"  media="screen,projection"/>
     <!-- <link rel="stylesheet" href="../css/style.css"> -->
-    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />

@@ -1,7 +1,10 @@
 </main>
-<footer class="blue page-footer">
+<footer class="blue">
+    <div class="row center-align">
+        <img src="../images/logo.png" alt="logo" class="w-15">
+    </div>
     <div class="row">
-    <div class="flex-sa col s12">
+    <div class="flex-sa col s12 m7 l7">
         <p><a href="#" class="text-white">Copyright</a></p>
         <p><a href="../fr/faq.php" class="text-white">FAQ</a></p>
         <p><a href="../fr/mentions_legales.php" class="text-white">Mentions légales</a></p>

@@ -8,7 +8,7 @@
     <title><?= $title ?></title>
     <link type="text/css" rel="stylesheet" href="../materialize/css/materialize.min.css"  media="screen,projection"/>
     <!-- <link rel="stylesheet" href="../css/style.css"> -->
-    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
@@ -84,6 +84,12 @@
                 <label for="adresse">Adresse</label>
                 <input type="text" name="adresse" id="adresse" title="adresse" class="w-100">
             </div>
+
+            <div class="flex-col-sa w-100 h-10">
+                <label for="cp_adresse">Complement d'adresse</label>
+                <input type="text" name="cp_adresse" id="adresse" title="adresse" class="w-100">
+            </div>
+
             <div class="flex-col-center-sa w-100 h-15">
                 <a href="#" class="button text-blue border_blue w-100 margin-0">Voir les offres</a>
                 <input type="submit" value="Essayer gratuitement" class="button blue w-100 margin-0">
@@ -103,11 +109,12 @@
                 <li><a href="offre.php" title="">nos offres</a></li>
                 <li><a href="apprendre_lsf.php" title="">apprendre la lsf</a></li>
                 <li><a href="certification.php" title="">certifications</a></li>
-                <li id="link_inscription"><a href="#" title="" class="white text-blue">inscription</a></li>
-                <li id="link_connexion"><a href="#" title="" class="white orange">connexion</a></li>
+                <li id="link_connexion"><a href="#" title="" class="white text-blue">connexion</a></li>
+                <li id="link_inscription"><a href="#" title="" class="orange text-white">inscription</a></li>
 
             </ul>
-            <ul class="side-nav" id="mobile-demo">
+            <ul class="side-nav blue flex-col-sa h-100" id="mobile-demo">
+                <li><a href="index.php"><img src="../images/logo.png"></a></li>
                 <li><a href="offre.php" title="">nos offres</a></li>
                 <li><a href="apprendre_lsf.php" title="">apprendre la lsf</a></li>
                 <li><a href="certification.php" title="">certifications</a></li>

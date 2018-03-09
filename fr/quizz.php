@@ -18,8 +18,8 @@ include('../include/header_cours.php');// nav + pop up
 
     <div class="container">
         <div class="row center-align">
-            <h2>Quizz</h2>
-            <h3>Niveau 1</h3>
+            <h1 class="black-text">Quizz</h1>
+            <h2>Niveau 1</h2>
         </div>
         <div class="row">
         <div class="col s12 m8 offset-m2 l8 offset-l2">

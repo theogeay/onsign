@@ -95,6 +95,13 @@ label {
 .nav-wrapper {
     width: 80%;
     margin: auto;
+    height: 100px!important;
+    padding-top: 15px;
+}
+
+nav {
+    height: 100px;
+
 }
 
 
@@ -149,6 +156,14 @@ nav ul a {
 
 .text-orange {
     color: #ff6d09!important;
+}
+
+.grey {
+    background-color: #F8F8F8!important;
+}
+
+.text-gris {
+    color: #F8F8F8!important;
 }
 
 /* ---------- Les width et height ------------- */

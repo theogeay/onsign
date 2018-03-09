@@ -1,7 +1,7 @@
 <?php
 $title = "Onsign"; // titre de la page
 $description = "écrire la meta description de la page"; // métadescription de la page
-$main_color = "white"; // background_color du main
+$main_color = "grey"; // background_color du main
 
 require_once ('../admin/controle-de-session.php');
 include('../include/header_cours.php');// nav + pop up
@@ -14,8 +14,9 @@ include('../include/header_cours.php');// nav + pop up
 
 ?>
 
-<section class="white flex-col-center">
+<section class="white flex-col-center grey">
     <div class="container">
+        <div class="row"></div>
 <h3>Niveau Débutant</h3>
         <div class="row">
             <div class="col s10 offset-s1 m4 l4">

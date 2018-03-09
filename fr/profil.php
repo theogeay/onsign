@@ -15,7 +15,7 @@ $profils = $profil->fetch(PDO::FETCH_ASSOC);
 <section class="flex-col-center container">
     
         <div class="flex-col-center row m-top-30px col s12">
-					<h1>Votre profil</h1>
+					<h1 class="black-text">Votre profil</h1>
 								<div class="flex-start w-60">
 									<div ><img class="photoprofil" alt="photo de profil Onsign" src="../images/exemple.jpg">
 									<a href="#">Modifier</a></div>

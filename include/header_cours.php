@@ -8,7 +8,7 @@
     <title><?= $title ?></title>
     <link type="text/css" rel="stylesheet" href="../materialize/css/materialize.min.css"  media="screen,projection"/>
     <!-- <link rel="stylesheet" href="../css/style.css"> -->
-    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
@@ -20,61 +20,36 @@
 
 
 <header id="#top" class="blue text-white">
-<div class="row"></div>
-    <div class="row">
-        <div class="col m3 l3 flex-sa">
-            <div class="row">
-                <div class="col m4 offset-m1">
-                <div class="bulle_profil">
-                    <img src="" alt="">
-                </div>
-                </div>
-                <span class="col m7">Christine Bigorneau</span>
-                <span class="col m7">Niveau intermédiaire</span>
-            </div>
 
+    <nav class="blue">
+        <div class="nav-wrapper blue">
+            <a href="../fr/dashboard.php" class="brand-logo"><img src="../images/logo.png"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+            <ul class="right hide-on-med-and-down w-100 flex-end">
+                <li class="w-40 flex-sa padding-2"><div class="col w-10 h-1 bloc_bordered orange"></div>
+                    <div class="col w-10 h-1 bloc_bordered orange"></div>
+                    <div class="col w-10 h-1 bloc_bordered white"></div>
+                    <div class="col w-10 h-1 bloc_bordered white"></div>
+                    <div class="col w-10 h-1 bloc_bordered white"></div>
+                    <div class="col w-10 h-1 bloc_bordered white"></div>
+                    <div class="col w-10 h-1 bloc_bordered white"></div>
+                    <div class="col w-10 h-1 bloc_bordered white"></div>
+                </li>
+                <li><a href="../fr/profil.php" class="button bloc_bordered text-white">Profil</a></li>
+                <li><a href="../fr/cours.php" class="button bloc_bordered text-white">Cours</a></li>
+                <li><a href="../fr/tchat.php" class="button bloc_bordered text-white">Certifications</a></li>
+                <li><a href="../admin/logout.php" class="button white bloc_bordered text-blue">Déconnexion</a></li>
+            </ul>
+            <ul class="side-nav blue flex-col-sa h-100" id="mobile-demo">
+                <li><a href="../fr/dashboard.php"><img src="../images/logo.png"></a></li>
+                <li><a href="../fr/profil.php" class="text-white">Profil</a></li>
+                <li><a href="../fr/cours.php" class="text-white">Cours</a></li>
+                <li><a href="../fr/tchat.php" class="text-white">Certifications</a></li>
+                <li><a href="../admin/logout.php" class="text-white">Déconnexion</a></li>
+            </ul>
         </div>
-
-        <div class="col m3 offset-m1 l3 offset-l1">
-
-            <div class="row flex-col-center">
-                <span class="size-1">Progression de la Certfication</span>
-            </div>
-
-            <div class="row flex-sb">
-                <div class="col s1 h-1 bloc_bordered orange"></div>
-                <div class="col s1 h-1 bloc_bordered orange"></div>
-                <div class="col s1 h-1 bloc_bordered white"></div>
-                <div class="col s1 h-1 bloc_bordered white"></div>
-                <div class="col s1 h-1 bloc_bordered white"></div>
-                <div class="col s1 h-1 bloc_bordered white"></div>
-                <div class="col s1 h-1 bloc_bordered white"></div>
-                <div class="col s1 h-1 bloc_bordered white"></div>
-            </div>
-
-        </div>
-
-            <div class="col m4 offset-m1 l4 offset-l1">
-                <div class="row"></div>
-                <div class="row flex-sa">
-
-                    <div class="">
-                        <a href="../fr/cours.php" class="button bloc_bordered text-white">Cours</a>
-                    </div>
-
-                    <div class="">
-                        <a href="../fr/tchat.php" class="button bloc_bordered text-white">Certifications</a>
-                    </div>
-
-                    <div class="">
-                        <a href="../admin/logout.php" class="button white bloc_bordered text-blue">Déconnexion</a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
+    </nav>
 
 </header>
 

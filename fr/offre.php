@@ -21,7 +21,7 @@ include('../include/header.php');
 				</div>
 
                     <div class="col s12 m6 l6 flex-col-sa">
-                        <h3>L’offre débutante qui vous permettra  :</h3>
+                        <h2>L’offre débutante qui vous permettra  :</h2>
                         <p>- De travailler et d’apprendre la gestuelle</p>
                         <p>- D’apprendre des mots simples</p>
                         <p>- De construire des phrases</p>
@@ -54,7 +54,7 @@ include('../include/header.php');
                 </div>
 
                 <div class="col s12 m6 l6 flex-col-sa">
-                    <h3>L’offre intermédiaire qui vous permettra :</h3>
+                    <h2>L’offre intermédiaire qui vous permettra :</h2>
                     <p>- D’apprendre à décrire une situation</p>
                     <p>- De répondre à des questions</p>
                     <p>- De débattre</p>

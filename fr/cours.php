@@ -19,9 +19,9 @@ include('../include/header_cours.php');// nav + pop up
     <div class="container">
         <div class="row">
             <div class="col s12 m9 offset-m3 l9 offset-l3">
-                <h2>Apprendre la LSF : <span class="text-orange">LES BASES</span></h2>
+                <h1 class="black-text">Apprendre la LSF : <span class="text-orange">LES BASES</span></h1>
 
-                <h3>Descriptif du Cours :</h3>
+                <h2>Descriptif du Cours :</h2>
 
                 <p>systeme de grid en 12 colonnes fait avec le css de materialize</p>
                 <p>systeme de grid en 12 colonnes fait avec le css de materialize</p>

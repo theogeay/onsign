@@ -5,10 +5,11 @@ $main_color = "white";
 include('../include/header.php');
 ?>
 
-		<section class="home_section_lsf h-95 h-inerit flex-col-center">
+		<section class="home_section_lsf h-85 h-inerit flex-col-center">
 			<div class="container">
 				<div class="row text-white">
                     <div class="col s10 offset-s1 col m6 offset-m6 col l6 offset-l6 ">
+                    <h1>Ecrire un titre</h1>
 					<h2>Apprendre la lsf en ligne</h2>
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

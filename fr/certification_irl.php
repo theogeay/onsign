@@ -18,8 +18,8 @@ include('../include/header.php');// nav + pop up
     <div class="container">
         <div class="row">
             <div class="col s12 flex-col padding">
-                <h2 class="margin-auto">Certification IRL</h2>
-                <h3>Il est temps !</h3>
+                <h1 class="margin-auto black-text">Certification IRL</h1>
+                <h2>Il est temps !</h2>
                 <p>Cela fait plus de 3 mois (c’est un exemple) que chaque jour vous en apprenez de plus en plus sur le langage des signes.
                     Après avoir passé les niveaux A1, A2, B1, B2 il est temps pour vous de passer à la certification orale
                     avec un de nos agréés professionnels du langage des signes afin de récupérer ce diplôme tant attendu.

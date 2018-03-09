@@ -17,7 +17,7 @@ include('../include/header.php');// nav + pop up
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
-                <h1>Foire aux questions</h1>
+                <h1 class="black-text">Foire aux questions</h1>
                 <ul class="collapsible" data-collapsible="accordion">
                     <li>
                         <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
