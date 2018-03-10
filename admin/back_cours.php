@@ -12,7 +12,7 @@ require_once('connect.php');
 
 // NE PAS SUPPRIMER STYLE.CSS POUR L'INSTANT
 
-$sql = "SELECT `id_cours`, `titre`, `niveau`, `texte_cours`, `video_cours` FROM `cours`";
+$sql = "SELECT `id_cours`, `titre`, `niveau`, `texte_cours`, `video` FROM `cours`";
 // premiere etape, le prepare
 $stmt = $pdo->prepare($sql);
 $stmt->execute();
@@ -42,7 +42,7 @@ $cours = $stmt -> fetchAll();
                 <td><?=$value['titre'] ?></td>
                 <td><?=$value['niveau'] ?></td>
                 <td><?=$value['texte_cours'] ?></td>
-                <td><?=$value['video_cours'] ?></td>
+                <td><?=$value['video'] ?></td>
                 <td>
                     <a href="modifier_cours.php?id=<?=$value['id_cours']?>">
                         <i class="material-icons">create</i>
