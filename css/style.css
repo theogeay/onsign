@@ -562,6 +562,25 @@ footer > .row {
     }
 }
 
+.carousel .indicators .indicator-item{
+
+    border: 2px #ff6d09 solid !important;
+    border-radius: 50% !important;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #ff6d09 !important;
+}
+
+
+.carousel .indicators .indicator-item.active {
+
+    border: 2px #ff6d09 solid !important;
+    border-radius: 50% !important;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #fff !important;
+}
+
 /*----------- Profil  ------------ */
 
 .photoprofil {

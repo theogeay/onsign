@@ -87,7 +87,7 @@
 
             <div class="flex-col-sa w-100 h-10">
                 <label for="cp_adresse">Complement d'adresse</label>
-                <input type="text" name="cp_adresse" id="adresse" title="adresse" class="w-100">
+                <input type="text" name="cp_adresse" id="cp_adresse" title="adresse" class="w-100">
             </div>
 
             <div class="flex-col-center-sa w-100 h-15">
@@ -110,7 +110,7 @@
                 <li><a href="apprendre_lsf.php" title="">apprendre la lsf</a></li>
                 <li><a href="certification.php" title="">certifications</a></li>
                 <li id="link_connexion"><a href="#" title="" class="white text-blue">connexion</a></li>
-                <li id="link_inscription"><a href="#" title="" class="orange text-white">inscription</a></li>
+                <li class="link_inscription"><a href="#" title="" class="orange text-white">inscription</a></li>
 
             </ul>
             <ul class="side-nav blue flex-col-sa h-100" id="mobile-demo">
@@ -119,7 +119,7 @@
                 <li><a href="apprendre_lsf.php" title="">apprendre la lsf</a></li>
                 <li><a href="certification.php" title="">certifications</a></li>
                 <li id="link_connexion"><a href="#" title="">connexion</a></li>
-                <li id="link_inscription" class="nav_btn_inscription"><a href="#" title="">inscription</a></li>
+                <li class="link_inscription nav_btn_inscription"><a href="#" title="">inscription</a></li>
             </ul>
         </div>
     </nav>

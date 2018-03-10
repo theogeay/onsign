@@ -42,10 +42,6 @@ Non, il faudra souscrire à la formule intermédiaire, ou contacter le support p
                         <div class="collapsible-header"><i class="material-icons text-blue">power_settings_new</i>Comment désactiver mon compte ?</div>
                         <div class="collapsible-body"><span>Il suffit de rentrer dans votre espace personnel puis cliquer sur "supprimer mon compte"</span></div>
                     </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons text-blue">delete</i>Résilier ?</div>
-                        <div class="collapsible-body"><span>Il suffit de rentrer dans votre espace personnel puis cliquer sur "me désabonner"</span></div>
-                    </li>
                 </ul>
 
             </div>

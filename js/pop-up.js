@@ -9,7 +9,7 @@ $('.opacity_2').click(function() {
     $('#pop-up_connexion').fadeOut();
 });
 
-$('#link_inscription').click(function () {
+$('.link_inscription').click(function () {
     $('#pop-up_inscription').fadeIn();
 });
 
