@@ -71,7 +71,7 @@ main {
  }
 
 .button_white:hover {
-    background-color:  blue;
+    border: white 2px solid!important;
     color: white;
 }
 
@@ -82,7 +82,8 @@ main {
 }
 
 .button_white_black:hover {
-    background-color:  blue;
+    background-color: #62ADFE;
+    border: white 2px solid!important;
     color: white;
 }
 
