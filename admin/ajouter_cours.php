@@ -66,7 +66,7 @@ include('../include/header_back.php');?>
             </div>
 
             <div class="flex-col-center-sa w-100 h-15">
-                <input type="submit" value="Envoyer" class="button button_orange w-40 margin-0">
+                <input type="submit" value="Envoyer" class="button  w-40 margin-0">
             </div>
         </form>
 

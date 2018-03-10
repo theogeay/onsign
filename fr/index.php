@@ -53,56 +53,43 @@ include('../include/header.php');
                 <div class="row center-align">
                     <h2 class="text-white">votre satisfaction, notre priorité</h2>
                 </div>
-            <div class="flex row white h-50 padding bloc_bordered carousel carousel-slider center" data-indicators="true">
-							<div class="carousel-item " href="#one!">
-				<div class="col s12 m10 offset-m1 l8">
-					<div class="flex-sa">
-						<div class="bulle">
-							<img src="" alt="">
-						</div>
-						<h5 class="text-blue">Thierry</h5>
-					</div>
-            </div>
+            <div class="flex row white padding bloc_bordered carousel carousel-slider center" data-indicators="true">
+                <div class="carousel-item " href="#one!">
+				<div class="col s12 m12 l12 center-align">
+                    <h5 class="text-blue">Thierry</h5>
+                </div>
                 <div class="row section">
                     <div class="col s12 m8 offset-m2 l8 offset-l2">
                         <p><i>“J’ai fais les deux formations Onsign, ce qui me permet aujourd’hui de communiquer au mieux avec mes élèves sourds et malentendants. Depuis tous mes élèves sont curieux et veulent apprendre la LSF pour parler avec leur camarades.” </i></p>
                     </div>
-									</div>
                 </div>
-							<div class="carousel-item" href="#two!">
-				<div class="col s12 m10 offset-m1 l8">
-					<div class="flex-sa">
-						<div class="bulle">
-							<img src="" alt="">
-						</div>
-						<h5 class="text-blue">Christine</h5>
-					</div>
-            </div>
+                </div>
+
+                <div class="carousel-item" href="#two!">
+                    <div class="col s12 m12 l12 center-align">
+                        <h5 class="text-blue">Christine</h5>
+                </div>
                 <div class="row section">
                     <div class="col s12 m8 offset-m2 l8 offset-l2">
                         <p><i>"La méthode Onsign est très efficace et m’a permis d’apprendre  à communiquer avec mon fils malentendant. Je recommande la communauté Onsign qui m’a accompagné tout au long de cette formation et dont je garde un très bon souvenir"</i></p>
                     </div>
-									</div>
                 </div>
-														<div class="carousel-item" href="#two!">
-				<div class="col s12 m10 offset-m1 l8">
-					<div class="flex-sa">
-						<div class="bulle">
-							<img src="" alt="">
-						</div>
-						<h5 class="text-blue">Elsa</h5>
-					</div>
-            </div>
+                </div>
+
+                <div class="carousel-item" href="#three!">
+                    <div class="col s12 m12 l12 center-align">
+                        <h5 class="text-blue">Elsa</h5>
+                    </div>
                 <div class="row section">
                     <div class="col s12 m8 offset-m2 l8 offset-l2">
                         <p><i>“J’ai beaucoup de temps libre dans mon cursus, j’ai donc décidé de me former de mon côté en parallèle de mes études. Grâce à la certification Onsign, je sais que je trouverai du travail beaucoup plus facilement.”</i></p>
                     </div>
-									</div>
+                </div>
                 </div>
 
-				</div>
+            </div>
 
-        </div>
+            </div>
 		</section>
 		
 		<section class="row h-100 h-inerit flex-col-center">
