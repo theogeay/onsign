@@ -41,7 +41,7 @@ include('../include/header_cours.php');// nav + pop up
                 <iframe src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
                 <div class="row">
-                    <a href="#" title="" class="button orange white-text col s8 offset-s2 m4 push-m1 l4 push-l1">Sauvergarder et Quitter</a>
+                    <a href="#" title="" class="button button_orange col s8 offset-s2 m4 push-m1 l4 push-l1">Sauvergarder et Quitter</a>
                     <a href="#" title="" class="button orange black-text col s8 offset-s2 m4 push-m3 l4 push-l3">Passez au Quizz</a>
                 </div>
             </div>

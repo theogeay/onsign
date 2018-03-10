@@ -40,7 +40,7 @@ include('../include/header_cours.php');// nav + pop up
                 <iframe src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
                 <div class="row">
-                    <a href="#" title="" class="button orange white-text col s8 offset-s2 m4 push-m1 l4 push-l1">Sauvergarder et Quitter</a>
+                    <a href="#" title="" class="button button_orange col s8 offset-s2 m4 push-m1 l4 push-l1">Sauvergarder et Quitter</a>
                     <a href="#" title="" class="button orange black-text col s8 offset-s2 m4 push-m3 l4 push-l3">Passez au Quizz</a>
                 </div>
             </div>
@@ -61,7 +61,7 @@ include('../include/header_cours.php');// nav + pop up
                 <p class="margin-0">Vous ne connaissez pas la lsf</p>
                 <p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
                 <img src="../images/offres.png" class="w-85">
-                <a href="#" title="" class="button orange text-white w-70">Choisir cette offre</a>
+                <a href="#" title="" class="button button_orange w-70">Choisir cette offre</a>
             </div>
 
             <div class="col s12 m5 offset-m2 l5 offset-l2 flex-col-center white bloc_bordered padding m-s">
@@ -69,7 +69,7 @@ include('../include/header_cours.php');// nav + pop up
                 <p class="margin-0">Vous ne connaissez pas la lsf</p>
                 <p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
                 <img src="../images/offres.png" class="w-85">
-                <a href="#" title="" class="button orange text-white w-70">Choisir cette offre</a>
+                <a href="#" title="" class="button button_orange w-70">Choisir cette offre</a>
             </div>
         </div>
 

@@ -5,7 +5,7 @@ $main_color = "white";// background_color du main
 $titre = "Cours";
 
 include('../include/header_back.php');// nav + pop up
-require_once('../admin/connect.php');
+require_once('connect.php');
 // systeme de grid en 12 colonnes fait avec le css de materialize
 
 // LE CSS ACTUELL QUI FONCTIONNE EST STYLE2.CSS
@@ -39,10 +39,10 @@ $cours = $stmt -> fetchAll();
             <tbody>
             <?php foreach ( $cours as $value ) : ?>
             <tr>
-                <td><?= $value['titre'] ?></td>
-                <td><?= $value['niveau'] ?></td>
-                <td><?= $value['texte_cours'] ?></td>
-                <td><?= $value['video_cours'] ?></td>
+                <td><?=$value['titre'] ?></td>
+                <td><?=$value['niveau'] ?></td>
+                <td><?=$value['texte_cours'] ?></td>
+                <td><?=$value['video_cours'] ?></td>
                 <td>
                     <a href="modifier_cours.php?id=<?=$value['id_cours']?>">
                         <i class="material-icons">create</i>
@@ -54,7 +54,7 @@ $cours = $stmt -> fetchAll();
                     </a>
                 </td>
             </tr>
-            <?endforeach;?>
+            <?php endforeach; ?>
             </tbody>
         </table>
 

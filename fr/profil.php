@@ -47,12 +47,12 @@ WHERE id = :id";
 
 
    
-include('../include/header.php');
+include('../include/header_cours.php');
 ?>
 <section class="flex-col-center container">
     
         <div class="flex-col-center row m-top-30px col s12">
-					<h1>Votre profil</h1>
+					<h1 class="black-text">Votre profil</h1>
 								
 	
         </div>
@@ -99,7 +99,7 @@ include('../include/header.php');
                 <p>Mot de passe</p>
                 <input value="<?=$value['mdp']?>"  class="browser-default"  name="mdp"  >
             </div>
-            <button type="submit" name="envoyer" class="button orange w-85 m-bot-10px">Enrgistrer les changements</button>
+            <button type="submit" name="envoyer" class="button button_orange w-85 m-bot-10px">Enregistrer</button>
 						</div>
         </form>
     

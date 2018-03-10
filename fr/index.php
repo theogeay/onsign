@@ -19,7 +19,7 @@ include('../include/header.php');
 
 					<p>Fort de notre volonté d'aider et convaincus de l'importance de former des professeurs au langage des signes, nous avons pour objectif de rendre l'éducation accessible à tous.</p>
 
-					<div class="section"><a href="#" title="" class="button orange link_inscription">s'inscrire</a></div>
+					<div class="section"><a href="#" title="" class="button button_orange link_inscription">s'inscrire</a></div>
                     </div>
 				</div>
 			</div>
@@ -115,7 +115,7 @@ include('../include/header.php');
 					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">4</div></div><p class="text-white">je valide mes compétences</p></div>
 					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">5</div></div><p class="text-white">J'obtiens la certifoication Onsgin</p></div>
 					<div class="row">
-                        <a href="cours_gratuit.php" title="" class="button white black-text col s12">Essayer gratuitement</a>
+                        <a href="cours_gratuit.php" title="" class="button button_white_black col s12">Essayer gratuitement</a>
                     </div>
 				</div>
 
@@ -126,7 +126,7 @@ include('../include/header.php');
 					<p>Suivez un cours, répêter le en vidéo et testez vos acquis sur le quizz !</p>
 				 <p>Vous pourrez enfin valider vos compétences et obtenir notre certification après un rendez-vous avec un enseignant de LSF agrée qui testera vos acquis.</p>
                     <div class="row">
-					<a href="faq.php" title="" class="button orange text-white col s12">Consulter notre FAQ</a>
+					<a href="faq.php" title="" class="button button_orange col s12">Consulter notre FAQ</a>
                     </div>
 				</div>
 			</div>
@@ -142,7 +142,7 @@ include('../include/header.php');
 					<p class="margin-0">Vous ne connaissez pas la lsf</p>
 					<p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
 					<img src="../images/offres.png" class="w-85">
-					<a href="#" title="" class="button orange text-white w-70 link_inscription">Choisir cette offre</a>
+					<a href="#" title="" class="button button_orange w-70 link_inscription">Choisir cette offre</a>
 				</div>
 
 				<div class="col s12 m5 offset-m2 l5 offset-l2 flex-col-center white bloc_bordered padding m-s">
@@ -150,7 +150,7 @@ include('../include/header.php');
 					<p class="margin-0">Vous connaisesez et pratiquez la LSF</p>
 					<p class="margin-0">mais vous souhaitez en apprendre d'avantage</p>
 					<img src="../images/offres.png" class="w-85">
-					<a href="#" title="" class="button orange text-white w-70 link_inscription">Choisir cette offre</a>
+					<a href="#" title="" class="button button_orange w-70 link_inscription">Choisir cette offre</a>
 				</div>
 				</div>
 			</div>
@@ -169,7 +169,7 @@ include('../include/header.php');
 
 					<p>Afin de recevoir votre certification, vous serez amené à passer un examen en fin de formation permettant la validation de vos acquis. Cet examen est compris dans le prix de la formation.</p>
 					
-					<a href="certification.php" title="" class="button white black-text w-40">En savoir plus</a>
+					<a href="certification.php" title="" class="button button_white_black w-40">En savoir plus</a>
 
 				</div>
                     <div class="col s12 m6 l6 push-l1 padding">
@@ -180,7 +180,8 @@ include('../include/header.php');
 			</div>
 		</section>
 
- <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<?php include('../include/footer.php') ?>
 <script type="text/javascript">
 	    $(document).ready(function(){
       $('.carousel').carousel();
@@ -202,4 +203,4 @@ $('.carousel').carousel('set', 4);
 // Destroy carousel
 $('.carousel').carousel('destroy');
 	$('.carousel.carousel-slider').carousel({fullWidth: true});</script>
-<?php include('../include/footer.php') ?>
+

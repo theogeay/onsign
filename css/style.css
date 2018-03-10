@@ -40,6 +40,8 @@ main {
     font-size: 1.4rem;
 }
 
+/* ------------- LES boutons de qualité supérieur --------------- */
+
 .button {
     text-transform: uppercase;
     color: white;
@@ -50,6 +52,40 @@ main {
     text-align: center;
     margin-top: 20px;
 }
+
+
+.button_orange {
+    background-color: #ff6d09;
+    color: white;
+    transition: background-color .3s;
+}
+
+.button_orange:hover {
+    background-color:  #FFB509;
+}
+
+.button_white {
+     background-color: white;
+     color: #62ADFE;
+     transition: background-color .3s;
+ }
+
+.button_white:hover {
+    background-color:  blue;
+    color: white;
+}
+
+.button_white_black {
+    background-color: white;
+    color: black;
+    transition: background-color .3s;
+}
+
+.button_white_black:hover {
+    background-color:  blue;
+    color: white;
+}
+
 
 #ancre {
     position: fixed;

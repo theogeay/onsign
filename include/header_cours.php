@@ -39,7 +39,7 @@
                 <li><a href="../fr/profil.php" class="button bloc_bordered text-white">Profil</a></li>
                 <li><a href="../fr/cours.php" class="button bloc_bordered text-white">Cours</a></li>
                 <li><a href="../fr/tchat.php" class="button bloc_bordered text-white">Certifications</a></li>
-                <li><a href="../admin/logout.php" class="button white bloc_bordered text-blue">Déconnexion</a></li>
+                <li><a href="../admin/logout.php" class="button button_white bloc_bordered">Déconnexion</a></li>
             </ul>
             <ul class="side-nav blue flex-col-sa h-100" id="mobile-demo">
                 <li><a href="../fr/dashboard.php"><img src="../images/logo.png"></a></li>

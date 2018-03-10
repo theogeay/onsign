@@ -109,8 +109,8 @@
                 <li><a href="offre.php" title="">nos offres</a></li>
                 <li><a href="apprendre_lsf.php" title="">apprendre la lsf</a></li>
                 <li><a href="certification.php" title="">certifications</a></li>
-                <li id="link_connexion"><a href="#" title="" class="white text-blue">connexion</a></li>
-                <li class="link_inscription"><a href="#" title="" class="orange text-white">inscription</a></li>
+                <li id="link_connexion"><a href="#" title="" class="button_white">connexion</a></li>
+                <li class="link_inscription"><a href="#" title="" class="button_orange">inscription</a></li>
 
             </ul>
             <ul class="side-nav blue flex-col-sa h-100" id="mobile-demo">
