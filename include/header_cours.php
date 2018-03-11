@@ -37,14 +37,14 @@
                     <div class="col w-10 h-1 bloc_bordered white"></div>
                 </li>
                 <li><a href="../fr/profil.php" class="button bloc_bordered text-white">Profil</a></li>
-                <li><a href="../fr/cours.php" class="button bloc_bordered text-white">Cours</a></li>
+                <li><a href="../fr/dashboard.php" class="button bloc_bordered text-white">Cours</a></li>
                 <li><a href="../fr/tchat.php" class="button bloc_bordered text-white">Certifications</a></li>
                 <li><a href="../admin/logout.php" class="button button_white bloc_bordered">Déconnexion</a></li>
             </ul>
             <ul class="side-nav blue flex-col-sa h-100" id="mobile-demo">
                 <li><a href="../fr/dashboard.php"><img src="../images/logo.png"></a></li>
                 <li><a href="../fr/profil.php" class="text-white">Profil</a></li>
-                <li><a href="../fr/cours.php" class="text-white">Cours</a></li>
+                <li><a href="../fr/dashboard.php" class="text-white">Cours</a></li>
                 <li><a href="../fr/tchat.php" class="text-white">Certifications</a></li>
                 <li><a href="../admin/logout.php" class="text-white">Déconnexion</a></li>
             </ul>

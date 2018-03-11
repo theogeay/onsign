@@ -70,7 +70,7 @@ include('../include/header_back.php');?>
 
             <div class="row">
                 <label for="file" class="browser-default col offset-m1 m3 offset-l1 l3 s10 offset-s1 p-10">Vidéo du cours</label>
-                <input type="file" title="video" name="video" value="" class="browser-default col s10 offset-s1 m7 l7"/>
+                <input type="file" title="video" name="video" class="browser-default col s10 offset-s1 m7 l7"/>
             </div>
 
             <div class="flex-col-center-sa w-100 h-15">

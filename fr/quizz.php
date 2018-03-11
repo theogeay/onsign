@@ -3,14 +3,27 @@ $title = "Cours"; // titre de la page
 $description = "écrire la meta description de la page"; // métadescription de la page
 $main_color = "white"; // background_color du main
 
+require_once ('../admin/connect.php');
 require_once ('../admin/controle-de-session.php');
 include('../include/header_cours.php');// nav + pop up
 
-// systeme de grid en 12 colonnes fait avec le css de materialize
+$sql = "SELECT * FROM `quizz` WHERE id_cours = :id";
+$stmt = $pdo->prepare($sql);
+$stmt->bindValue(':id', $_GET['id'], PDO::PARAM_INT);
+$stmt->execute();
+$element = $stmt -> fetch();
 
-// LE CSS ACTUELL QUI FONCTIONNE EST STYLE2.CSS
+$random = random_int(1 , 3);
 
-// NE PAS SUPPRIMER STYLE.CSS POUR L'INSTANT
+
+if ($random === 1) {
+    $video = 'video1';
+} elseif ($random === 2){
+    $video = 'video2';
+} elseif ($random === 3){
+    $video = 'video3';
+}
+
 
 ?>
 
@@ -19,25 +32,13 @@ include('../include/header_cours.php');// nav + pop up
     <div class="container">
         <div class="row center-align">
             <h1 class="black-text">Quizz</h1>
-            <h2>Niveau 1</h2>
+            <h2><?=$element['id_quizz']?></h2>
         </div>
         <div class="row">
         <div class="col s12 m8 offset-m2 l8 offset-l2">
 
-            <div class="row flex-sb">
-                <div class="col s1 h-1 bloc_bordered orange"></div>
-                <div class="col s1 h-1 bloc_bordered orange"></div>
-                <div class="col s1 h-1 bloc_bordered grey"></div>
-                <div class="col s1 h-1 bloc_bordered grey"></div>
-                <div class="col s1 h-1 bloc_bordered grey"></div>
-                <div class="col s1 h-1 bloc_bordered grey"></div>
-                <div class="col s1 h-1 bloc_bordered grey"></div>
-                <div class="col s1 h-1 bloc_bordered grey"></div>
-            </div>
-
-
             <div class="row">
-                <h5 class="col s10 offset-s1">Progression de la Certfication de type progrès</h5>
+                <h5 class="col s10 offset-s1"><?=$element['mot']?></h5>
             </div>
 
         </div>
@@ -48,19 +49,25 @@ include('../include/header_cours.php');// nav + pop up
 
             <form action="#" method="post">
                 <div class="col s12 m4 l4 ">
-                    <img src="../images/home_section_certif.jpg" class="w-100">
-                    <input name="question" type="radio" id="1" />
+                    <video class="responsive-video" autoplay loop>
+                        <source src="../video/<?=$element['video1']?>" type="video/mp4" >
+                    </video>
+                    <input name="question" type="radio" id="1"/>
                     <label for="1"></label>
                 </div>
 
                 <div class="col s12 m4 l4 ">
-                    <img src="../images/home_section_certif.jpg" class="w-100">
+                    <video class="responsive-video" autoplay loop>
+                        <source src="../video/<?=$element['video2']?>" type="video/mp4" >
+                    </video>
                     <input name="question" type="radio" id="2" />
                     <label for="2"></label>
                 </div>
 
                 <div class="col s12 m4 l4 ">
-                    <img src="../images/home_section_certif.jpg" class="w-100">
+                    <video class="responsive-video" autoplay loop>
+                        <source src="../video/<?=$element['video3']?>" type="video/mp4" >
+                    </video>
                     <input name="question" type="radio" id="3" />
                     <label for="3"></label>
                 </div>
