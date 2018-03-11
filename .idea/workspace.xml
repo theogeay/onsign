@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce90dd03-c216-42ff-a2d0-781606478bb8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video/one.mp4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/ajouter_cours.php" afterPath="$PROJECT_DIR$/admin/ajouter_cours.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/dashboard.php" afterPath="$PROJECT_DIR$/fr/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/quizz.php" afterPath="$PROJECT_DIR$/fr/quizz.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header_cours.php" afterPath="$PROJECT_DIR$/include/header_cours.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/ajouter_quizz.php" afterPath="$PROJECT_DIR$/admin/ajouter_quizz.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +28,7 @@
       <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fr/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
+            <state relative-caret-position="209">
               <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
               <folding>
                 <marker date="1520775305042" expanded="true" signature="534:587" ph="SELECT id, n... users" />
@@ -43,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quizz.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="quizz.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fr/quizz.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <marker date="1520783709641" expanded="true" signature="336:378" ph="SELECT * FRO... quizz" />
                 <marker date="1520783709641" expanded="true" signature="731:874" ph="..." />
@@ -109,15 +105,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajouter_quizz.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ajouter_quizz.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/ajouter_quizz.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state relative-caret-position="20">
+              <caret line="97" column="92" lean-forward="false" selection-start-line="97" selection-start-column="92" selection-end-line="97" selection-end-column="92" />
               <folding>
-                <marker date="1520768520785" expanded="true" signature="451:502" ph="SELECT `id_c... cours" />
-                <marker date="1520768520785" expanded="true" signature="1004:1154" ph="INSERT INTO `quizz`... " />
-                <marker date="1520768520785" expanded="true" signature="1087:1099" ph="INSERT INTO `cours`... " />
+                <marker date="1520788536905" expanded="true" signature="384:524" ph="INSERT INTO `quizz`... " />
+                <marker date="1520788536905" expanded="true" signature="462:474" ph="INSERT INTO `cours`... " />
+                <marker date="1520788536905" expanded="true" signature="1987:2034" ph="SELECT id_co... cours" />
               </folding>
             </state>
           </provider>
@@ -218,11 +214,11 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/admin/modifier_cours.php" />
         <option value="$PROJECT_DIR$/admin/back_cours.php" />
-        <option value="$PROJECT_DIR$/admin/ajouter_quizz.php" />
         <option value="$PROJECT_DIR$/include/header_cours.php" />
         <option value="$PROJECT_DIR$/fr/dashboard.php" />
         <option value="$PROJECT_DIR$/admin/ajouter_cours.php" />
         <option value="$PROJECT_DIR$/fr/quizz.php" />
+        <option value="$PROJECT_DIR$/admin/ajouter_quizz.php" />
       </list>
     </option>
   </component>
@@ -456,12 +452,12 @@
       <workItem from="1520358787858" duration="17147000" />
       <workItem from="1520583262744" duration="5073000" />
       <workItem from="1520603722093" duration="15184000" />
-      <workItem from="1520674423203" duration="26615000" />
+      <workItem from="1520674423203" duration="30802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155766000" />
+    <option name="totallyTimeSpent" value="159953000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -484,7 +480,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35211268" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35211268" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -844,9 +840,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520768520785" expanded="true" signature="451:502" ph="SELECT `id_c... cours" />
-            <marker date="1520768520785" expanded="true" signature="1004:1154" ph="INSERT INTO `quizz`... " />
-            <marker date="1520768520785" expanded="true" signature="1087:1099" ph="INSERT INTO `cours`... " />
+            <marker date="1520788536905" expanded="true" signature="384:524" ph="INSERT INTO `quizz`... " />
+            <marker date="1520788536905" expanded="true" signature="462:474" ph="INSERT INTO `cours`... " />
+            <marker date="1520788536905" expanded="true" signature="1987:2034" ph="SELECT id_co... cours" />
           </folding>
         </state>
       </provider>
@@ -866,18 +862,6 @@
           <folding>
             <marker date="1520763435903" expanded="true" signature="383:503" ph="UPDATE `cour... " />
             <marker date="1520763435903" expanded="true" signature="1155:1249" ph="SELECT `id_c... cours" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/ajouter_quizz.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding>
-            <marker date="1520768520785" expanded="true" signature="451:502" ph="SELECT `id_c... cours" />
-            <marker date="1520768520785" expanded="true" signature="1004:1154" ph="INSERT INTO `quizz`... " />
-            <marker date="1520768520785" expanded="true" signature="1087:1099" ph="INSERT INTO `cours`... " />
           </folding>
         </state>
       </provider>
@@ -902,18 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fr/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-          <folding>
-            <marker date="1520775305042" expanded="true" signature="534:587" ph="SELECT id, n... users" />
-            <marker date="1520775305042" expanded="true" signature="736:830" ph="SELECT `id_c... cours" />
-            <marker date="1520775305042" expanded="true" signature="999:1048" ph="SELECT `id_c... quizz" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fr/cours.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -924,12 +896,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/ajouter_cours.php">
+    <entry file="file://$PROJECT_DIR$/fr/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="209">
+          <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
           <folding>
-            <marker date="1520777668854" expanded="true" signature="386:500" ph="INSERT INTO `cours`... " />
+            <marker date="1520775305042" expanded="true" signature="534:587" ph="SELECT id, n... users" />
+            <marker date="1520775305042" expanded="true" signature="736:830" ph="SELECT `id_c... cours" />
+            <marker date="1520775305042" expanded="true" signature="999:1048" ph="SELECT `id_c... quizz" />
           </folding>
         </state>
       </provider>
@@ -937,7 +911,7 @@
     <entry file="file://$PROJECT_DIR$/fr/quizz.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <marker date="1520783709641" expanded="true" signature="336:378" ph="SELECT * FRO... quizz" />
             <marker date="1520783709641" expanded="true" signature="731:874" ph="..." />
@@ -956,6 +930,28 @@
             <marker date="1520783709641" expanded="true" signature="2050:2176" ph="..." />
             <marker date="1520783709641" expanded="true" signature="2117:2176" ph="..." />
             <marker date="1520783709641" expanded="true" signature="2462:2735" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/ajouter_cours.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <marker date="1520777668854" expanded="true" signature="386:500" ph="INSERT INTO `cours`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/ajouter_quizz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="97" column="92" lean-forward="false" selection-start-line="97" selection-start-column="92" selection-end-line="97" selection-end-column="92" />
+          <folding>
+            <marker date="1520788536905" expanded="true" signature="384:524" ph="INSERT INTO `quizz`... " />
+            <marker date="1520788536905" expanded="true" signature="462:474" ph="INSERT INTO `cours`... " />
+            <marker date="1520788536905" expanded="true" signature="1987:2034" ph="SELECT id_co... cours" />
           </folding>
         </state>
       </provider>
