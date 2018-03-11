@@ -33,6 +33,7 @@ $cours = $stmt -> fetchAll();
                 <th>Vidéo du cours</th>
                 <th>Modifier</th>
                 <th>Supprimer</th>
+                <th>Quizz</th>
             </tr>
             </thead>
 
@@ -51,6 +52,11 @@ $cours = $stmt -> fetchAll();
                 <td>
                     <a onclick="return confirm('T sûr ??')" href="supprimer_cours.php?id=<?=$value['id_cours']?>">
                         <i class="material-icons text-orange">delete</i>
+                    </a>
+                </td>
+                <td>
+                    <a href="ajouter_quizz.php?id=<?=$value['id_cours']?>">
+                        <i class="material-icons text-yellow">add</i>
                     </a>
                 </td>
             </tr>

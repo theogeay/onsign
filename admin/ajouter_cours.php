@@ -29,7 +29,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 	if(!empty($_POST['submit']) && isset($_FILES['video']))
      {
          
-         $destination = "../images/photo_profil/";
+         $destination = "../video/";
          
          $filename = basename($_FILES['video']['name']);
 
@@ -74,7 +74,7 @@ include('../include/header_back.php');?>
             </div>
 
             <div class="flex-col-center-sa w-100 h-15">
-                <input type="submit" name="submit" value="upload" class="button orange text-white w-40 margin-0">
+                <input type="submit" name="submit" value="upload" class="button button_orange w-40 margin-0">
             </div>
         </form>
 

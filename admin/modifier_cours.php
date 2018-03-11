@@ -13,12 +13,12 @@ $titre = "Cours";
 require_once "connect.php";
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
-    $sql = "UPDATE `cours` SET `titre`= :titre, `niveau`= :niveau, `texte_cours`= :texte_cours, `video_cours`= :video_cours WHERE id_cours = :id";
+    $sql = "UPDATE `cours` SET `titre`= :titre, `niveau`= :niveau, `texte_cours`= :texte_cours, `video`= :video WHERE id_cours = :id";
     $stmt = $pdo->prepare($sql);
     $stmt->bindValue(':titre', $_POST['titre'], PDO::PARAM_STR);
     $stmt->bindValue(':niveau', $_POST['niveau'], PDO::PARAM_STR);
     $stmt->bindValue(':texte_cours', $_POST['texte_cours'], PDO::PARAM_STR);
-    $stmt->bindValue(':video_cours', $_POST['video_cours'], PDO::PARAM_STR);
+    $stmt->bindValue(':video', $_POST['video'], PDO::PARAM_STR);
     $stmt->bindValue(':id', $_POST['id_cours'], PDO::PARAM_INT);
     $stmt->execute();
     if($stmt->errorCode() !== '00000'){
@@ -32,7 +32,7 @@ if(!isset($_GET['id'])){
     die('L\'id pas spécifiée!');
 }
 // requete SQL
-$sql = "SELECT `id_cours`, `titre`, `niveau`, `texte_cours`, `video_cours` FROM `cours` WHERE id_cours = :id";
+$sql = "SELECT `id_cours`, `titre`, `niveau`, `texte_cours`, `video` FROM `cours` WHERE id_cours = :id";
 // prepare
 $stmt = $pdo->prepare($sql);
 // bind
@@ -87,11 +87,11 @@ include('../include/header_back.php');
 
             <div class="row">
                 <label for="video_cours" class="browser-default col offset-m1 m3 offset-l1 l3 s10 offset-s1 p-10">Vidéo du cours</label>
-                <input type="text" name="video_cours" title="video_cours" value="<?=$row['video_cours']?>" class="browser-default col s10 offset-s1 m7 l7">
+                <input type="text" name="video_cours" title="video_cours" value="<?=$row['video']?>" class="browser-default col s10 offset-s1 m7 l7">
             </div>
 
             <div class="flex-col-center-sa w-100 h-15">
-                <input type="submit" value="Envoyer" class="button button_orange w-40 margin-0">
+                <input type="submit" value="Envoyer" class="button orange text-white w-40 margin-0">
             </div>
         </form>
 

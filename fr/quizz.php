@@ -49,19 +49,19 @@ include('../include/header_cours.php');// nav + pop up
             <form action="#" method="post">
                 <div class="col s12 m4 l4 ">
                     <img src="../images/home_section_certif.jpg" class="w-100">
-                    <input type="checkbox" id="1" />
+                    <input name="question" type="radio" id="1" />
                     <label for="1"></label>
                 </div>
 
                 <div class="col s12 m4 l4 ">
                     <img src="../images/home_section_certif.jpg" class="w-100">
-                    <input type="checkbox" id="2" />
+                    <input name="question" type="radio" id="2" />
                     <label for="2"></label>
                 </div>
 
                 <div class="col s12 m4 l4 ">
                     <img src="../images/home_section_certif.jpg" class="w-100">
-                    <input type="checkbox" id="3" />
+                    <input name="question" type="radio" id="3" />
                     <label for="3"></label>
                 </div>
 
