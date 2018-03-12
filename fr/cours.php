@@ -40,19 +40,19 @@ $elements = $stmt -> fetch();
         </div>
         <div class="row">
             <div class="col s12 m4 l3 h-55 flex-col-center-sa blue bloc_bordered m-s">
-                <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">1</div></div><p class="text-white">Je regarde la vidéo</p></div>
-                <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">2</div></div><p class="text-white">Je reproduis les gestes</p></div>
-                <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">3</div></div><p class="text-white">Je les apprends</p></div>
-                <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">4</div></div><p class="text-white">Je fais le quizz</p></div>
-                <div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">5</div></div><p class="text-white">J'avance dans le niveau</p></div>
+                <div class="flex-start col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">1</div></div><p class="text-white padding-l">Je regarde la vidéo</p></div>
+                <div class="flex-start col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">2</div></div><p class="text-white padding-l">Je reproduis les gestes</p></div>
+                <div class="flex-start col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">3</div></div><p class="text-white padding-l">Je les apprends</p></div>
+                <div class="flex-start col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">4</div></div><p class="text-white padding-l">Je fais le quizz</p></div>
+                <div class="flex-start col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">5</div></div><p class="text-white padding-l">J'avance dans le niveau</p></div>
             </div>
             <div class="col s12 m8 l9">
             <div class="video-container">
                 <video class="materialboxed" width="100%" controls src="../video/<?=$elements['video']?>" >Vidéo de cours Onsign</video>
             </div>
                 <div class="row">
-                    <a href="#" title="" class="button button_orange col s8 offset-s2 m4 push-m1 l4 push-l1">Sauvergarder et Quitter</a>
-                    <a href="#" title="" class="button orange black-text col s8 offset-s2 m4 push-m3 l4 push-l3">Passez au Quizz</a>
+                    <a href="#" title="" class="button button_orange col s8 offset-s2 m4 push-m1 l4 push-l1">Sauvergarder</a>
+                    <a href="#" title="" class="button button_white_orange col s8 offset-s2 m4 push-m3 l4 push-l3">Passez au Quizz</a>
                 </div>
             </div>
         </div>

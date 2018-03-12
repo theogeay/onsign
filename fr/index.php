@@ -96,11 +96,11 @@ include('../include/header.php');
 			<div class="container">
 			<div class="row">
 				<div class="col s12 m5 l4 flex-col-center-sa blue padding bloc_bordered m-s">
-					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">1</div></div><p class="text-white">je m'inscris sur Onsign</p></div>
-					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">2</div></div><p class="text-white">Je suis le cours de LSF en ligne</p></div>
-					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">3</div></div><p class="text-white">Je m'entraine sur les quizz</p></div>
-					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">4</div></div><p class="text-white">je valide mes compétences</p></div>
-					<div class="flex-sa col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">5</div></div><p class="text-white">J'obtiens la certifoication Onsgin</p></div>
+					<div class="flex-start col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">1</div></div><p class="text-white padding-l">je m'inscris sur Onsign</p></div>
+					<div class="flex-start col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">2</div></div><p class="text-white padding-l">Je suis le cours de LSF en ligne</p></div>
+					<div class="flex-start col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">3</div></div><p class="text-white padding-l">Je m'entraine sur les quizz</p></div>
+					<div class="flex-start col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">4</div></div><p class="text-white padding-l">je valide mes compétences</p></div>
+					<div class="flex-start col s12"><div class="bulle_avis border-transparent center-align text-blue white"><div class="m-top-5px">5</div></div><p class="text-white padding-l">J'obtiens la certification Onsign</p></div>
 					<div class="row">
                         <a href="cours_gratuit.php" title="" class="button button_white_black col s12">Essayer gratuitement</a>
                     </div>
@@ -148,7 +148,7 @@ include('../include/header.php');
 			<div class="container">
                 <div class="row">
 				<div class="col s12 m6 l6 text-white flex-col">
-					<h2>Certification Onsign</h2>
+					<h2 class="text-white">Certification Onsign</h2>
 
 					<p>Le certificat Onsign délivré à la fin de votre formation vous permet de certifier votre niveau de maîtrise du langage des singes français.</p>
 
@@ -166,6 +166,87 @@ include('../include/header.php');
 			</div>
 			</div>
 		</section>
+
+        <section class="h-100 flex-col-center">
+            <div class="container">
+                <h2 class="center-align">Nos Partenaires</h2>
+                <div class="carousel carousel-slider center height-500px" data-indicators="true">
+                    <div class="carousel-item" href="#one!">
+                        <div class="row flex">
+
+                            <div class="col s4">
+                                <img src="../images/bnp.png" class="w-90">
+                            </div>
+
+                            <div class="col s4">
+                                <img src="../images/descartes.png" class="w-90">
+                            </div>
+
+                            <div class="col s4">
+                                <img src="../images/education.png" class="w-90">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" href="#two!">
+                        <div class="row flex">
+
+                        <div class="col s4">
+                            <img src="../images/descartes.png" class="w-90">
+                        </div>
+
+                        <div class="col s4">
+                            <img src="../images/education.png" class="w-90">
+                        </div>
+
+                        <div class="col s4">
+                            <img src="../images/essec.png" class="w-70">
+                        </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item" href="#three!">
+                        <div class="row flex">
+
+                        <div class="col s4">
+                            <img src="../images/lyon.png" class="w-80">
+                        </div>
+
+                        <div class="col s4">
+                            <img src="../images/orange.png" class="w-80">
+                        </div>
+
+                        <div class="col s4">
+                            <img src="../images/surdi.jpeg" class="w-80">
+                        </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item" href="#four!">
+                        <div class="row flex">
+
+                        <div class="col s4">
+                            <img src="../images/louis.png" class="w-90">
+                        </div>
+
+                        <div class="col s4">
+                            <img src="../images/henry4.png" class="w-60">
+                        </div>
+
+                        <div class="col s4">
+                            <img src="../images/fnsf.jpeg" class="w-80">
+                        </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 <?php include('../include/footer.php') ?>

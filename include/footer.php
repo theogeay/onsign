@@ -5,7 +5,7 @@
     </div>
     <div class="row">
     <div class="flex-sa col s12 m7 l7">
-        <p><a href="#" class="text-white">Copyright</a></p>
+        <p><a href="../fr/index.php" class="text-white">© Onsign 2018</a></p>
         <p><a href="../fr/faq.php" class="text-white">FAQ</a></p>
         <p><a href="../fr/mentions_legales.php" class="text-white">Mentions légales</a></p>
         <p><a href="../fr/donnee_perso.php" class="text-white">Données personnelles</a></p>

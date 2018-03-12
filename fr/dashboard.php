@@ -45,7 +45,7 @@ $quizzAll = $stmt2 ->fetchAll(PDO::FETCH_ASSOC);
 <section class="white flex-col-center grey">
     <div class="container">
         <div class="row"></div>
-<h3>Niveau Débutant</h3>
+<h2>Niveau Débutant</h2>
         <div class="row">
             <?php foreach ($elements as $key => $value) : ?>
             <div class="col s10 offset-s1 m4 l4">

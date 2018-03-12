@@ -21,7 +21,7 @@
 <!-- POP UP CONNEXION -->
 <div class="w-100 flex-col-center fixed z-1 hidden" id="pop-up_connexion">
     <div class="opacity_2 h-100 w-100 flex-col-center fixed z-2"></div>
-    <div class="w-40 h-60 bloc_bordered white flex-col-center-sa padding z-3 pop_up">
+    <div class="w-40 w-m-100 h-60 bloc_bordered white flex-col-center-sa padding z-3 pop_up">
 
         <h2 class="text-blue">Connexion</h2>
 
@@ -35,7 +35,7 @@
                 <label for="password">Password</label>
                 <input type="password" name="password" id="password" title="password" class="w-100">
             </div>
-            <input type="submit" value="Se connecter" class="button blue w-100">
+            <input type="submit" value="Se connecter" class="button  button_blue w-100">
             <div class="flex-col-center-sa w-100 h-5">
                 <a href="#">Mot de passe oublié ?</a>
                 <a href="#" class="link_inscription">S'incrire</a>
@@ -47,7 +47,7 @@
 <!-- POP UP INSCRIPTION -->
 <div class="w-100 flex-col-center fixed z-1 hidden" id="pop-up_inscription">
     <div class="opacity_2 h-100 w-100 flex-col-center fixed z-2"></div>
-    <div class="w-40 h-75 bloc_bordered white flex-col-center-sa padding z-3 pop_up">
+    <div class="w-40 w-m-100 h-75 bloc_bordered white flex-col-center-sa padding z-3 pop_up">
 
         <h2 class="text-blue">Inscription</h2>
 
@@ -91,8 +91,8 @@
             </div>
 
             <div class="flex-col-center-sa w-100 h-15">
-                <a href="#" class="button text-blue border_blue w-100 margin-0">Voir les offres</a>
-                <input type="submit" value="Essayer gratuitement" class="button blue w-100 margin-0">
+                <a href="../fr/offre.php" class="button button_white_blue w-100 margin-0">Voir les offres</a>
+                <input type="submit" value="S'inscrire" class="button button_blue w-100 margin-0">
             </div>
         </form>
     </div>
