@@ -4,16 +4,9 @@ $description = "écrire la meta description de la page"; // métadescription de 
 $main_color = "grey"; // background_color du main
 
 require_once ('../admin/controle-de-session.php');
+
 include('../include/header_cours.php');// nav + pop up
 
-// systeme de grid en 12 colonnes fait avec le css de materialize
-
-// LE CSS ACTUELL QUI FONCTIONNE EST STYLE2.CSS
-
-// NE PAS SUPPRIMER STYLE.CSS POUR L'INSTANT
-
-
-//connexion BDD 
 require_once('../admin/connect.php');
 //affchage								
 $key = "SELECT id, niveau_formation FROM users WHERE id = :id";

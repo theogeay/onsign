@@ -35,7 +35,7 @@
                 <label for="password">Password</label>
                 <input type="password" name="password" id="password" title="password" class="w-100">
             </div>
-            <input type="submit" value="Se connecter" class="button  button_blue w-100">
+            <input type="submit" value="Se connecter" class="button button_blue w-100">
             <div class="flex-col-center-sa w-100 h-5">
                 <a href="#">Mot de passe oublié ?</a>
                 <a href="#" class="link_inscription">S'incrire</a>

@@ -32,10 +32,13 @@ h2 {
 }
 
 h3 {
-    font-size: 1.8rem;
     padding: 1rem 0 1.424rem 0;
     margin: 0;
     text-transform: uppercase;
+    font-family: 'Cabin';
+    font-weight: 600;
+    font-size: 20px;
+    color: #7C7C7C;
 }
 
 main {
@@ -613,21 +616,6 @@ nav ul a {
 
 footer > .row {
     margin-bottom: 0;
-}
-
-footer a {
-    -webkit-transition: background-color .3s;
-    transition: background-color .3s;
-    font-size: 1rem;
-    color: #fff;
-    padding: 7px 15px;
-    cursor: pointer;
-    border-radius: 15px;
-    border: 2px transparent solid;
-}
-
-footer a:hover {
-    background-color: rgba(0,0,0,0.1);
 }
 
 .pop_up {
