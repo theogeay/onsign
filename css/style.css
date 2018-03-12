@@ -618,6 +618,18 @@ footer > .row {
     margin-bottom: 0;
 }
 
+.logo_footer {
+    width: 175px;
+}
+
+.logo_w3c {
+    width: 90px;
+}
+
+.rs_logo {
+    width: 35px;
+}
+
 .pop_up {
 
     position: relative;
