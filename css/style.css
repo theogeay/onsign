@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin:400,700');
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,600');
+
+@font-face {
+    font-family: "Gravity-Bold";
+    src: url('../fonts/gravity/Gravity-Bold.otf');
+}
 
 body {
     margin: 0;
@@ -8,7 +13,7 @@ body {
 }
 
 h1{
-    font-family: Gravity-Bold, 'Cabin';
+    font-family: 'Gravity-Bold', 'Arial';
     font-size: 48px;
     color: #FFFFFF;
     padding: 1rem 0 1.424rem 0;
@@ -17,7 +22,8 @@ h1{
 }
 
 h2 {
-    font-family: Cabin-SemiBold, 'Cabin';
+    font-family: 'Cabin';
+    font-weight: 600;
     font-size: 20px;
     color: #7C7C7C;
     padding: 1rem 0 1.424rem 0;
@@ -43,6 +49,7 @@ main {
 /* ------------- LES boutons de qualité supérieur --------------- */
 
 .button {
+    font-family: 'Gravity-Bold', 'Arial';
     text-transform: uppercase;
     color: white;
     padding: 7px 15px!important;

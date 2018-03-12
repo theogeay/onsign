@@ -38,7 +38,7 @@
             <input type="submit" value="Se connecter" class="button blue w-100">
             <div class="flex-col-center-sa w-100 h-5">
                 <a href="#">Mot de passe oublié ?</a>
-                <a href="#">S'incrire</a>
+                <a href="#" class="link_inscription">S'incrire</a>
             </div>
         </form>
     </div>

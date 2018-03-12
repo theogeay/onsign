@@ -8,8 +8,8 @@
         <p><a href="#" class="text-white">Copyright</a></p>
         <p><a href="../fr/faq.php" class="text-white">FAQ</a></p>
         <p><a href="../fr/mentions_legales.php" class="text-white">Mentions légales</a></p>
-        <p><a href="#" class="text-white">Données personnelles</a></p>
-        <p><a href="#" class="text-white">Contact</a></p>
+        <p><a href="../fr/donnee_perso.php" class="text-white">Données personnelles</a></p>
+        <p><a href="mailto:jeanne.vinay@eemi.com" class="text-white">Contact</a></p>
     </div>
     </div>
 </footer>
