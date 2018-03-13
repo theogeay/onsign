@@ -23,7 +23,7 @@ foreach ( $messages as $key => $value ) {
 	$nouveauxMessages .= '
         <div class="row message-block" data-id-message="<?= $value[\'id_message\'] ?>">
             <div class="col s12 m6 offset-m6 l6 offset-l6 bloc_bordered blue text-white">
-                <p><?= $_SESSION[\'message\'] ?></p>
+                <p><?= $_SESSION[\'prenom\'] ?></p>
                 <p><?= $value[\'message\'] ?></p>
                 <p class="right-align grey-text lighten-5"><?= $value[\'date_time\'] ?></p>
             </div>

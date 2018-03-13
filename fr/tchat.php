@@ -14,7 +14,7 @@ $messages = $resultat->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <div class="row"></div>
 <div class="container col s12 blue center-align z-depth-3">
-    <h2 class="white-text">Tchat + date</h2>
+    <h2 class="white-text">Tchat + Niveau</h2>
 </div>
 <section class="grey flex-col h-65" style="overflow: auto">
     <div class="container white padding z-depth-3">
@@ -29,9 +29,9 @@ $messages = $resultat->fetchAll(PDO::FETCH_ASSOC);
 
        <div class="row message-block" data-id-message="<?= $value['id_message'] ?>">
             <div class="col s12 m6 offset-m6 l6 offset-l6 bloc_bordered blue text-white">
-                <p><?= $_SESSION['pseudo'] ?></p>
+                <p><?= $_SESSION['prenom'] ?></p>
                 <p><?= $value['message'] ?></p>
-                <p class="right-align grey-text lighten-5"><?= $value['date_time'] ?></p>
+                <p class="right-align black-text"><?= $value['date_time'] ?></p>
             </div>
         </div>
 

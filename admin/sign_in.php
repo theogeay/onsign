@@ -17,7 +17,7 @@ require_once ('connect.php');
         !empty($_POST['adresse']) && is_string($_POST['adresse'])
     ) {
         $sql = "INSERT INTO `users`(`nom`, `prenom`, `mail`, `adresse`, `complement_adresse`, `telephone`, `date_inscription`, `niveau_forfait`, `niveau_formation`, `last_session`, `mdp`, `pseudo`) 
-                VALUES (:nom, :prenom, :email, :adresse, :cp_adresse, :tel, NOW(), NULL, NULL, NOW(), :password, NULL)";
+                VALUES (:nom, :prenom, :email, :adresse, :cp_adresse, :tel, NOW(), :niveau_forfait, :niveau_formation, NOW(), :password, NULL)";
         $stmt = $pdo->prepare($sql);
         $stmt->bindValue(':nom', $_POST['nom']);
         $stmt->bindValue(':prenom', $_POST['prenom']);
@@ -26,8 +26,10 @@ require_once ('connect.php');
         $stmt->bindValue(':tel', $_POST['tel']);
         $stmt->bindValue(':adresse', $_POST['adresse']);
         $stmt->bindValue(':cp_adresse', $_POST['cp_adresse']);
+        $stmt->bindValue(':niveau_forfait', $_POST['niveau_forfait']);
+        $stmt->bindValue(':niveau_formation', $_POST['niveau_formation']);
         $stmt->execute();
-        header('Location:../fr/dashboard.php');
+        header('Location:../fr/index.php');
         exit();
     }
 

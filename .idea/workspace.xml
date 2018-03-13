@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce90dd03-c216-42ff-a2d0-781606478bb8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/offres.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/login.php" afterPath="$PROJECT_DIR$/admin/login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/reception.php" afterPath="$PROJECT_DIR$/admin/reception.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/apprendre_lsf.php" afterPath="$PROJECT_DIR$/fr/apprendre_lsf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/cours_gratuit.php" afterPath="$PROJECT_DIR$/fr/cours_gratuit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/index.php" afterPath="$PROJECT_DIR$/fr/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/offre.php" afterPath="$PROJECT_DIR$/fr/offre.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/profil.php" afterPath="$PROJECT_DIR$/fr/profil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sign_in.php" afterPath="$PROJECT_DIR$/admin/sign_in.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/tchat.php" afterPath="$PROJECT_DIR$/fr/tchat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/footer.php" afterPath="$PROJECT_DIR$/include/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header.php" afterPath="$PROJECT_DIR$/include/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,16 +18,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="profil.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fr/profil.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,13 +31,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tchat.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fr/dashboard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="50" />
+              <folding>
+                <marker date="1520879286872" expanded="true" signature="355:408" ph="SELECT id, n... users" />
+                <marker date="1520879286872" expanded="true" signature="557:651" ph="SELECT `id_c... cours" />
+                <marker date="1520879286872" expanded="true" signature="820:869" ph="SELECT `id_c... quizz" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tchat.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fr/tchat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="42">
+              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding>
-                <marker date="1520899938365" expanded="true" signature="260:350" ph="SELECT SELEC... tchat" />
+                <marker date="1520902738470" expanded="true" signature="260:350" ph="SELECT SELEC... tchat" />
               </folding>
             </state>
           </provider>
@@ -63,15 +60,15 @@
       <file leaf-file-name="reception.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/reception.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="186">
+              <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
               <folding>
-                <marker date="1520899938377" expanded="true" signature="198:287" ph="INSERT INTO `tchat`... " />
-                <marker date="1520899938377" expanded="true" signature="252:287" ph="INSERT INTO `users`... " />
-                <marker date="1520899938377" expanded="true" signature="499:589" ph="SELECT `id_m... tchat" />
-                <marker date="1520899938377" expanded="true" signature="554:589" ph="SELECT id_us... tchat" />
-                <marker date="1520899938377" expanded="true" signature="821:1140" ph="..." />
-                <marker date="1520899938377" expanded="true" signature="911:1125" ph="..." />
+                <marker date="1520902460702" expanded="true" signature="198:287" ph="INSERT INTO `tchat`... " />
+                <marker date="1520902460702" expanded="true" signature="252:287" ph="INSERT INTO `users`... " />
+                <marker date="1520902460702" expanded="true" signature="499:589" ph="SELECT `id_m... tchat" />
+                <marker date="1520902460702" expanded="true" signature="554:589" ph="SELECT id_us... tchat" />
+                <marker date="1520902460702" expanded="true" signature="821:1139" ph="..." />
+                <marker date="1520902460702" expanded="true" signature="911:1124" ph="..." />
               </folding>
             </state>
           </provider>
@@ -80,31 +77,9 @@
       <file leaf-file-name="envoi.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/envoi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="14">
               <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fr/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="138" column="47" lean-forward="false" selection-start-line="138" selection-start-column="47" selection-end-line="138" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajouter_cours.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/ajouter_cours.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="63" selection-end-column="18" />
-              <folding>
-                <marker date="1520777668854" expanded="true" signature="386:500" ph="INSERT INTO `cours`... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -112,29 +87,54 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
+            <state relative-caret-position="-372">
               <caret line="49" column="95" lean-forward="false" selection-start-line="49" selection-start-column="95" selection-end-line="49" selection-end-column="95" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apprendre_lsf.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="apprendre_lsf.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fr/apprendre_lsf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="225">
+              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+      <file leaf-file-name="connect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/connect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="545" column="20" lean-forward="false" selection-start-line="545" selection-start-column="20" selection-end-line="545" selection-end-column="20" />
+            <state relative-caret-position="30">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding>
+                <marker date="1520902238408" expanded="true" signature="177:240" ph="SELECT `id`,... users" />
+                <marker date="1520902238408" expanded="true" signature="177:246" ph="SELECT `id`,... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign_in.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/sign_in.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+              <folding>
+                <marker date="1520901993541" expanded="true" signature="619:944" ph="INSERT INTO `users`... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,7 +164,6 @@
       <list>
         <option value="$PROJECT_DIR$/fr/index.html" />
         <option value="$PROJECT_DIR$/fr/page_de_base.php" />
-        <option value="$PROJECT_DIR$/admin/login.php" />
         <option value="$PROJECT_DIR$/admin/connect.php" />
         <option value="$PROJECT_DIR$/admin/logout.php" />
         <option value="$PROJECT_DIR$/include/footer_back.php" />
@@ -180,7 +179,6 @@
         <option value="$PROJECT_DIR$/css/style2.css" />
         <option value="$PROJECT_DIR$/fr/mentions_legales.php" />
         <option value="$PROJECT_DIR$/js/pop-up.js" />
-        <option value="$PROJECT_DIR$/admin/sign_in.php" />
         <option value="$PROJECT_DIR$/admin/modifier_quizz.php" />
         <option value="$PROJECT_DIR$/include/header_back.php" />
         <option value="$PROJECT_DIR$/fr/certification_irl.php" />
@@ -204,9 +202,11 @@
         <option value="$PROJECT_DIR$/include/footer.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/fr/profil.php" />
-        <option value="$PROJECT_DIR$/fr/tchat.php" />
-        <option value="$PROJECT_DIR$/admin/reception.php" />
         <option value="$PROJECT_DIR$/fr/apprendre_lsf.php" />
+        <option value="$PROJECT_DIR$/admin/sign_in.php" />
+        <option value="$PROJECT_DIR$/admin/login.php" />
+        <option value="$PROJECT_DIR$/admin/reception.php" />
+        <option value="$PROJECT_DIR$/fr/tchat.php" />
       </list>
     </option>
   </component>
@@ -455,12 +455,12 @@
       <workItem from="1520583262744" duration="5073000" />
       <workItem from="1520603722093" duration="15184000" />
       <workItem from="1520674423203" duration="30936000" />
-      <workItem from="1520861236438" duration="22630000" />
+      <workItem from="1520861236438" duration="24359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182717000" />
+    <option name="totallyTimeSpent" value="184446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,7 +482,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35211268" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35211268" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -585,17 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <marker date="1520290331029" expanded="true" signature="177:230" ph="SELECT `id`,... users" />
-            <marker date="1520290331029" expanded="true" signature="177:236" ph="SELECT `id`,... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/back_quizz.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -611,16 +600,6 @@
         <state relative-caret-position="45">
           <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/sign_in.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <marker date="1520677705817" expanded="true" signature="619:920" ph="INSERT INTO `users`... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,14 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fr/faq.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -800,18 +771,6 @@
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fr/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1520879286872" expanded="true" signature="355:408" ph="SELECT id, n... users" />
-            <marker date="1520879286872" expanded="true" signature="557:651" ph="SELECT `id_c... cours" />
-            <marker date="1520879286872" expanded="true" signature="820:869" ph="SELECT `id_c... quizz" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,52 +851,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fr/tchat.php">
+    <entry file="file://$PROJECT_DIR$/fr/apprendre_lsf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding>
-            <marker date="1520899938365" expanded="true" signature="260:350" ph="SELECT SELEC... tchat" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/reception.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <marker date="1520899938377" expanded="true" signature="198:287" ph="INSERT INTO `tchat`... " />
-            <marker date="1520899938377" expanded="true" signature="252:287" ph="INSERT INTO `users`... " />
-            <marker date="1520899938377" expanded="true" signature="499:589" ph="SELECT `id_m... tchat" />
-            <marker date="1520899938377" expanded="true" signature="554:589" ph="SELECT id_us... tchat" />
-            <marker date="1520899938377" expanded="true" signature="821:1140" ph="..." />
-            <marker date="1520899938377" expanded="true" signature="911:1125" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/envoi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
+        <state relative-caret-position="-372">
           <caret line="49" column="95" lean-forward="false" selection-start-line="49" selection-start-column="95" selection-end-line="49" selection-end-column="95" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fr/apprendre_lsf.php">
+    <entry file="file://$PROJECT_DIR$/admin/sign_in.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="206">
+          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <marker date="1520901993541" expanded="true" signature="619:944" ph="INSERT INTO `users`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <marker date="1520902238408" expanded="true" signature="177:240" ph="SELECT `id`,... users" />
+            <marker date="1520902238408" expanded="true" signature="177:246" ph="SELECT `id`,... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="50" />
+          <folding>
+            <marker date="1520879286872" expanded="true" signature="355:408" ph="SELECT id, n... users" />
+            <marker date="1520879286872" expanded="true" signature="557:651" ph="SELECT `id_c... cours" />
+            <marker date="1520879286872" expanded="true" signature="820:869" ph="SELECT `id_c... quizz" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/reception.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <marker date="1520902460702" expanded="true" signature="198:287" ph="INSERT INTO `tchat`... " />
+            <marker date="1520902460702" expanded="true" signature="252:287" ph="INSERT INTO `users`... " />
+            <marker date="1520902460702" expanded="true" signature="499:589" ph="SELECT `id_m... tchat" />
+            <marker date="1520902460702" expanded="true" signature="554:589" ph="SELECT id_us... tchat" />
+            <marker date="1520902460702" expanded="true" signature="821:1139" ph="..." />
+            <marker date="1520902460702" expanded="true" signature="911:1124" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/envoi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/tchat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <marker date="1520902738470" expanded="true" signature="260:350" ph="SELECT SELEC... tchat" />
+          </folding>
         </state>
       </provider>
     </entry>
