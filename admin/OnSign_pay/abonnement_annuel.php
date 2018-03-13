@@ -1,13 +1,11 @@
-<!DOCTYPE html>
+<?php
+$title = "Payement annuel";
+include('header_paypal.php') ?>
 
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
-</head>
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
 
-<body>
-<h1>Abonnement annuel</h1>
+
+<h1 class="black-text center-align">Abonnement annuel</h1>
 
 <a id="paypal"></a>
 
@@ -46,4 +44,4 @@
         }
     }, '#paypal');
 </script>
-</body>
+<?php include('footer_paypal.php') ?>

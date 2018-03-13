@@ -1,13 +1,10 @@
-<!DOCTYPE html>
+<?php
+$title = "Payement 6 mois";
+include('header_paypal.php') ?>
 
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
-</head>
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
 
-<body>
-<h1>Abonnement de six mois</h1>
+<h1 class="center-align black-text">Abonnement de six mois</h1>
 
 <a id="paypal"></a>
 
@@ -46,4 +43,4 @@
         }
     }, '#paypal');
 </script>
-</body>
+<?php include('footer_paypal.php') ?>

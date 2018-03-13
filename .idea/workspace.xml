@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce90dd03-c216-42ff-a2d0-781606478bb8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/OnSign_pay/footer_paypal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/OnSign_pay/header_paypal.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/reception.php" afterPath="$PROJECT_DIR$/admin/reception.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/cours.php" afterPath="$PROJECT_DIR$/fr/cours.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/dashboard.php" afterPath="$PROJECT_DIR$/fr/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/quizz.php" afterPath="$PROJECT_DIR$/fr/quizz.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/tchat.php" afterPath="$PROJECT_DIR$/fr/tchat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header_cours.php" afterPath="$PROJECT_DIR$/include/header_cours.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/envoi.js" afterPath="$PROJECT_DIR$/js/envoi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/OnSign_pay/abonnement_annuel.php" afterPath="$PROJECT_DIR$/admin/OnSign_pay/abonnement_annuel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/OnSign_pay/abonnement_six_mois.php" afterPath="$PROJECT_DIR$/admin/OnSign_pay/abonnement_six_mois.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/sign_in.php" afterPath="$PROJECT_DIR$/admin/sign_in.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,17 +19,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header_cours.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/header_cours.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="66" lean-forward="false" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tchat.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tchat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fr/tchat.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -55,38 +43,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fr/dashboard.php">
+      <file leaf-file-name="abonnement_annuel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/OnSign_pay/abonnement_annuel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="500">
+              <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reception.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/reception.php">
+      <file leaf-file-name="header_paypal.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/OnSign_pay/header_paypal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-              <folding>
-                <marker date="1520911557711" expanded="true" signature="198:306" ph="INSERT INTO `tchat`... " />
-                <marker date="1520911557711" expanded="true" signature="262:306" ph="INSERT INTO `users`... " />
-                <marker date="1520911557711" expanded="true" signature="576:676" ph="SELECT `id_m... tchat" />
-                <marker date="1520911557711" expanded="true" signature="641:676" ph="SELECT id_us... tchat" />
-                <marker date="1520911557711" expanded="true" signature="910:1228" ph="..." />
-                <marker date="1520911557711" expanded="true" signature="1000:1213" ph="..." />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="envoi.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/envoi.js">
+      <file leaf-file-name="footer_paypal.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/OnSign_pay/footer_paypal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="675">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -95,42 +86,29 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-372">
-              <caret line="49" column="95" lean-forward="false" selection-start-line="49" selection-start-column="95" selection-end-line="49" selection-end-column="95" />
+            <state relative-caret-position="560">
+              <caret line="149" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apprendre_lsf.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fr/apprendre_lsf.php">
+      <file leaf-file-name="abonnement_six_mois.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/OnSign_pay/abonnement_six_mois.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="2310">
+              <caret line="154" column="34" lean-forward="false" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/connect.php">
+      <file leaf-file-name="abonnement_trois_mois.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/OnSign_pay/abonnement_trois_mois.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <marker date="1520902238408" expanded="true" signature="177:240" ph="SELECT `id`,... users" />
-                <marker date="1520902238408" expanded="true" signature="177:246" ph="SELECT `id`,... users" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -138,11 +116,21 @@
       <file leaf-file-name="sign_in.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/sign_in.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+            <state relative-caret-position="509">
+              <caret line="43" column="60" lean-forward="true" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
               <folding>
-                <marker date="1520901993541" expanded="true" signature="619:944" ph="INSERT INTO `users`... " />
+                <marker date="1520913239706" expanded="true" signature="619:944" ph="INSERT INTO `users`... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pay.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/OnSign_pay/pay.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -209,12 +197,16 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/fr/profil.php" />
         <option value="$PROJECT_DIR$/fr/apprendre_lsf.php" />
-        <option value="$PROJECT_DIR$/admin/sign_in.php" />
         <option value="$PROJECT_DIR$/admin/login.php" />
         <option value="$PROJECT_DIR$/js/envoi.js" />
         <option value="$PROJECT_DIR$/include/header_cours.php" />
         <option value="$PROJECT_DIR$/admin/reception.php" />
         <option value="$PROJECT_DIR$/fr/tchat.php" />
+        <option value="$PROJECT_DIR$/admin/sign_in.php" />
+        <option value="$PROJECT_DIR$/admin/OnSign_pay/abonnement_six_mois.php" />
+        <option value="$PROJECT_DIR$/admin/OnSign_pay/footer_paypal.php" />
+        <option value="$PROJECT_DIR$/admin/OnSign_pay/header_paypal.php" />
+        <option value="$PROJECT_DIR$/admin/OnSign_pay/abonnement_annuel.php" />
       </list>
     </option>
   </component>
@@ -327,6 +319,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onsign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onsign" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnSign_pay" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -348,6 +358,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/OnSign_pay" />
       <recent name="$PROJECT_DIR$/fr" />
       <recent name="$PROJECT_DIR$/admin" />
       <recent name="$PROJECT_DIR$/include" />
@@ -463,12 +474,12 @@
       <workItem from="1520583262744" duration="5073000" />
       <workItem from="1520603722093" duration="15184000" />
       <workItem from="1520674423203" duration="30936000" />
-      <workItem from="1520861236438" duration="29282000" />
+      <workItem from="1520861236438" duration="31268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189369000" />
+    <option name="totallyTimeSpent" value="191355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -534,33 +545,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/fr/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="144" column="18" lean-forward="true" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/fr/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2355">
-          <caret line="157" column="18" lean-forward="true" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/fr/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
@@ -820,14 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -855,24 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
-          <caret line="49" column="95" lean-forward="false" selection-start-line="49" selection-start-column="95" selection-end-line="49" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/sign_in.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <marker date="1520901993541" expanded="true" signature="619:944" ph="INSERT INTO `users`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -884,7 +842,7 @@
     <entry file="file://$PROJECT_DIR$/admin/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding>
             <marker date="1520902238408" expanded="true" signature="177:240" ph="SELECT `id`,... users" />
             <marker date="1520902238408" expanded="true" signature="177:246" ph="SELECT `id`,... users" />
@@ -950,6 +908,80 @@
             <marker date="1520912157728" expanded="true" signature="1836:1992" ph="..." />
             <marker date="1520912157728" expanded="true" signature="2029:2189" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/OnSign_pay/pay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/sign_in.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="43" column="60" lean-forward="true" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
+          <folding>
+            <marker date="1520913239706" expanded="true" signature="619:944" ph="INSERT INTO `users`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="149" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/OnSign_pay/abonnement_trois_mois.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/OnSign_pay/abonnement_six_mois.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="154" column="34" lean-forward="false" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/OnSign_pay/footer_paypal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/OnSign_pay/header_paypal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/OnSign_pay/abonnement_annuel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

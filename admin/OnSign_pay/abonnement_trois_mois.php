@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<?php
+$title = "Payement 3 mois";
+include('header_paypal.php') ?>
     <script src="https://www.paypalobjects.com/api/checkout.js"></script>
-</head>
 
-<body>
-<h1>Abonnement de trois mois</h1>
+<h1 class="center-align black-text">Abonnement de trois mois</h1>
 
 <a id="paypal"></a>
 
@@ -46,4 +42,6 @@
         }
     }, '#paypal');
 </script>
-</body>
+<?php
+
+include('footer_paypal.php') ?>
