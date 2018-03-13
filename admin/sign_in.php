@@ -30,17 +30,11 @@ require_once ('connect.php');
         $stmt->bindValue(':niveau_formation', $_POST['niveau_formation']);
         $stmt->execute();
 
-        if ($_POST['niveau_forfait'] === "A" && $_POST['niveau_formation'] === "12" ) {
+        if ($_POST['niveau_formation'] === "12" ) {
             header('Location:OnSign_pay/abonnement_annuel.php');
-        } elseif ($_POST['niveau_forfait'] === "A" && $_POST['niveau_formation'] === "6" ) {
+        } elseif ($_POST['niveau_formation'] === "6" ) {
             header('Location:OnSign_pay/abonnement_six_mois.php');
-        } elseif ($_POST['niveau_forfait'] === "A" && $_POST['niveau_formation'] === "3" ) {
-            header('Location:OnSign_pay/abonnement_trois_mois.php');
-        } elseif ($_POST['niveau_forfait'] === "B" && $_POST['niveau_formation'] === "12" ) {
-            header('Location:OnSign_pay/abonnement_annuel.php');
-        } elseif ($_POST['niveau_forfait'] === "B" && $_POST['niveau_formation'] === "6" ) {
-            header('Location:OnSign_pay/abonnement_six_mois.php');
-        } elseif ($_POST['niveau_forfait'] === "B" && $_POST['niveau_formation'] === "3" ) {
+        } elseif (['niveau_formation'] === "3" ) {
             header('Location:OnSign_pay/abonnement_trois_mois.php');
         }
     }

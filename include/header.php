@@ -94,7 +94,7 @@
                 <select title="niveau_formation" name="niveau_formation" class="w-100 browser-default">
                     <option value="3" selected>3 mois</option>
                     <option value="6">6 mois</option>
-                    <option value="9">9 mois</option>
+                    <option value="12">12 mois</option>
                 </select>
             </div>
             </div>
