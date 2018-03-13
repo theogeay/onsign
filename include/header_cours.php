@@ -26,15 +26,6 @@
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
             <ul class="right hide-on-med-and-down w-100 flex-end">
-                <li class="w-40 flex-sa padding-2"><div class="col w-10 h-1 bloc_bordered orange"></div>
-                    <div class="col w-10 h-1 bloc_bordered orange"></div>
-                    <div class="col w-10 h-1 bloc_bordered white"></div>
-                    <div class="col w-10 h-1 bloc_bordered white"></div>
-                    <div class="col w-10 h-1 bloc_bordered white"></div>
-                    <div class="col w-10 h-1 bloc_bordered white"></div>
-                    <div class="col w-10 h-1 bloc_bordered white"></div>
-                    <div class="col w-10 h-1 bloc_bordered white"></div>
-                </li>
                 <li><a href="../fr/profil.php" class="button bloc_bordered text-white">Profil</a></li>
                 <li><a href="../fr/dashboard.php" class="button bloc_bordered text-white">Cours</a></li>
                 <li><a href="../fr/tchat.php" class="button bloc_bordered text-white">Tchat</a></li>

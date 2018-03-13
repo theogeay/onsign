@@ -1,8 +1,5 @@
 $(function(){
-  $('#formMessage').on('keypress', function(e) {
-    if(e.keyCode === 13) {
-
-      e.preventDefault();
+  $('#formMessage').on('click', function() {
 
       var objetEnvoye = {
         message: $('#message').val(),
@@ -16,9 +13,6 @@ $(function(){
 
 
       }, 'JSON');
-
-
-    }
 
 
   });

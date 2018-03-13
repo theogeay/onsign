@@ -51,8 +51,8 @@ $elements = $stmt -> fetch();
                 <video class="materialboxed" width="100%" controls src="../video/<?=$elements['video']?>" >Vidéo de cours Onsign</video>
             </div>
                 <div class="row">
-                    <a href="#" title="" class="button button_orange col s8 offset-s2 m4 push-m1 l4 push-l1">Sauvergarder</a>
-                    <a href="#" title="" class="button button_white_orange col s8 offset-s2 m4 push-m3 l4 push-l3">Passez au Quizz</a>
+                    <a href="dashboard.php" title="" class="button button_orange col s8 offset-s2 m4 push-m1 l4 push-l1">Quitter</a>
+                    <a href="quizz.php?id=<?=$elements['id_cours']?>" title="" class="button button_white_orange col s8 offset-s2 m4 push-m3 l4 push-l3">Passez au Quizz</a>
                 </div>
             </div>
         </div>

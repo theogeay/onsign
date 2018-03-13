@@ -32,13 +32,13 @@ if ($random === 1) {
     <div class="container">
         <div class="row center-align">
             <h1 class="black-text">Quizz</h1>
-            <h2><?=$element['id_quizz']?></h2>
+            <h2 class="hidden"><?=$element['id_quizz']?></h2>
         </div>
         <div class="row">
         <div class="col s12 m8 offset-m2 l8 offset-l2">
 
             <div class="row">
-                <h5 class="col s10 offset-s1"><?=$element['mot']?></h5>
+                <h5 class="col s10 offset-s1">Comment dit-on <?=$element['mot']?> en LSF ?</h5>
             </div>
 
         </div>
@@ -49,7 +49,7 @@ if ($random === 1) {
 
             <form action="#" method="post">
                 <div class="col s12 m4 l4 ">
-                    <video class="responsive-video" autoplay loop>
+                    <video class="responsive-video" muted autoplay loop>
                         <source src="../video/<?=$element['video1']?>" type="video/mp4" >
                     </video>
                     <input name="question" type="radio" id="1"/>
@@ -57,7 +57,7 @@ if ($random === 1) {
                 </div>
 
                 <div class="col s12 m4 l4 ">
-                    <video class="responsive-video" autoplay loop>
+                    <video class="responsive-video" muted autoplay loop>
                         <source src="../video/<?=$element['video2']?>" type="video/mp4" >
                     </video>
                     <input name="question" type="radio" id="2" />
@@ -65,7 +65,7 @@ if ($random === 1) {
                 </div>
 
                 <div class="col s12 m4 l4 ">
-                    <video class="responsive-video" autoplay loop>
+                    <video class="responsive-video" muted autoplay loop>
                         <source src="../video/<?=$element['video3']?>" type="video/mp4" >
                     </video>
                     <input name="question" type="radio" id="3" />
@@ -77,7 +77,7 @@ if ($random === 1) {
                 <div class="row"></div>
 
             <div class="row">
-                <a href="#" title="" class="button button_white_orange col s8 offset-s2 m4 push-m1 l4 push-l1">Sauvergarder</a>
+                <a href="dashboard.php" title="" class="button button_white_orange col s8 offset-s2 m4 push-m1 l4 push-l1">Quitter</a>
                 <a href="#" title="" class="button button_orange col s8 offset-s2 m4 push-m3 l4 push-l3">Valider</a>
             </div>
         </div>
