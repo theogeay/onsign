@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce90dd03-c216-42ff-a2d0-781606478bb8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/offres.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/reception.php" afterPath="$PROJECT_DIR$/admin/reception.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/apprendre_lsf.php" afterPath="$PROJECT_DIR$/fr/apprendre_lsf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/cours_gratuit.php" afterPath="$PROJECT_DIR$/fr/cours_gratuit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/index.php" afterPath="$PROJECT_DIR$/fr/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/offre.php" afterPath="$PROJECT_DIR$/fr/offre.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/profil.php" afterPath="$PROJECT_DIR$/fr/profil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/tchat.php" afterPath="$PROJECT_DIR$/fr/tchat.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/footer.php" afterPath="$PROJECT_DIR$/include/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header.php" afterPath="$PROJECT_DIR$/include/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,45 +25,63 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header_cours.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/header_cours.php">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="46" column="70" lean-forward="false" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
+            <state relative-caret-position="174">
+              <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fr/dashboard.php">
+      <file leaf-file-name="profil.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fr/profil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="246">
+              <caret line="112" column="102" lean-forward="false" selection-start-line="112" selection-start-column="102" selection-end-line="112" selection-end-column="102" />
               <folding>
-                <marker date="1520879286872" expanded="true" signature="355:408" ph="SELECT id, n... users" />
-                <marker date="1520879286872" expanded="true" signature="557:651" ph="SELECT `id_c... cours" />
-                <marker date="1520879286872" expanded="true" signature="820:869" ph="SELECT `id_c... quizz" />
+                <marker date="1520899787208" expanded="true" signature="209:245" ph="SELECT * FRO... users" />
+                <marker date="1520899787208" expanded="true" signature="486:641" ph="UPDATE users... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/footer.php">
+      <file leaf-file-name="tchat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fr/tchat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="465">
+              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+              <folding>
+                <marker date="1520899938365" expanded="true" signature="260:350" ph="SELECT SELEC... tchat" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controle-de-session.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/controle-de-session.php">
+      <file leaf-file-name="reception.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/reception.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <folding>
+                <marker date="1520899938377" expanded="true" signature="198:287" ph="INSERT INTO `tchat`... " />
+                <marker date="1520899938377" expanded="true" signature="252:287" ph="INSERT INTO `users`... " />
+                <marker date="1520899938377" expanded="true" signature="499:589" ph="SELECT `id_m... tchat" />
+                <marker date="1520899938377" expanded="true" signature="554:589" ph="SELECT id_us... tchat" />
+                <marker date="1520899938377" expanded="true" signature="821:1140" ph="..." />
+                <marker date="1520899938377" expanded="true" signature="911:1125" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="envoi.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/envoi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -62,29 +90,21 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fr/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="235" column="44" lean-forward="true" selection-start-line="235" selection-start-column="44" selection-end-line="235" selection-end-column="44" />
+            <state relative-caret-position="258">
+              <caret line="138" column="47" lean-forward="false" selection-start-line="138" selection-start-column="47" selection-end-line="138" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_de_base.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fr/page_de_base.php">
+      <file leaf-file-name="ajouter_cours.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/ajouter_cours.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="24" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header_back.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/header_back.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="55" />
-              <folding />
+            <state relative-caret-position="115">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="63" selection-end-column="18" />
+              <folding>
+                <marker date="1520777668854" expanded="true" signature="386:500" ph="INSERT INTO `cours`... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,28 +112,28 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="93" column="88" lean-forward="false" selection-start-line="93" selection-start-column="88" selection-end-line="93" selection-end-column="88" />
+            <state relative-caret-position="735">
+              <caret line="49" column="95" lean-forward="false" selection-start-line="49" selection-start-column="95" selection-end-line="49" selection-end-column="95" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer_back.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/footer_back.php">
+      <file leaf-file-name="apprendre_lsf.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fr/apprendre_lsf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="625" column="12" lean-forward="false" selection-start-line="625" selection-start-column="12" selection-end-line="625" selection-end-column="12" />
+            <state relative-caret-position="215">
+              <caret line="545" column="20" lean-forward="false" selection-start-line="545" selection-start-column="20" selection-end-line="545" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -147,7 +167,6 @@
         <option value="$PROJECT_DIR$/admin/login.php" />
         <option value="$PROJECT_DIR$/admin/connect.php" />
         <option value="$PROJECT_DIR$/admin/logout.php" />
-        <option value="$PROJECT_DIR$/admin/reception.php" />
         <option value="$PROJECT_DIR$/include/footer_back.php" />
         <option value="$PROJECT_DIR$/admin/back_end.php" />
         <option value="$PROJECT_DIR$/admin/supprimer.php" />
@@ -159,12 +178,9 @@
         <option value="$PROJECT_DIR$/admin/supprimer_cours.php" />
         <option value="$PROJECT_DIR$/admin/back_quizz.php" />
         <option value="$PROJECT_DIR$/css/style2.css" />
-        <option value="$PROJECT_DIR$/fr/apprendre_lsf.php" />
         <option value="$PROJECT_DIR$/fr/mentions_legales.php" />
-        <option value="$PROJECT_DIR$/fr/tchat.php" />
         <option value="$PROJECT_DIR$/js/pop-up.js" />
         <option value="$PROJECT_DIR$/admin/sign_in.php" />
-        <option value="$PROJECT_DIR$/fr/profil.php" />
         <option value="$PROJECT_DIR$/admin/modifier_quizz.php" />
         <option value="$PROJECT_DIR$/include/header_back.php" />
         <option value="$PROJECT_DIR$/fr/certification_irl.php" />
@@ -178,15 +194,19 @@
         <option value="$PROJECT_DIR$/fr/cours.php" />
         <option value="$PROJECT_DIR$/fr/quizz.php" />
         <option value="$PROJECT_DIR$/js/envoi.js" />
-        <option value="$PROJECT_DIR$/fr/offre.php" />
-        <option value="$PROJECT_DIR$/fr/cours_gratuit.php" />
-        <option value="$PROJECT_DIR$/fr/index.php" />
-        <option value="$PROJECT_DIR$/include/header.php" />
         <option value="$PROJECT_DIR$/admin/controle-de-session.php" />
         <option value="$PROJECT_DIR$/fr/dashboard.php" />
         <option value="$PROJECT_DIR$/include/header_cours.php" />
+        <option value="$PROJECT_DIR$/fr/cours_gratuit.php" />
+        <option value="$PROJECT_DIR$/fr/index.php" />
+        <option value="$PROJECT_DIR$/fr/offre.php" />
+        <option value="$PROJECT_DIR$/include/header.php" />
         <option value="$PROJECT_DIR$/include/footer.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/fr/profil.php" />
+        <option value="$PROJECT_DIR$/fr/tchat.php" />
+        <option value="$PROJECT_DIR$/admin/reception.php" />
+        <option value="$PROJECT_DIR$/fr/apprendre_lsf.php" />
       </list>
     </option>
   </component>
@@ -239,6 +259,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onsign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onsign" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="include" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -253,7 +287,35 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="fr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onsign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onsign" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onsign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onsign" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -393,12 +455,12 @@
       <workItem from="1520583262744" duration="5073000" />
       <workItem from="1520603722093" duration="15184000" />
       <workItem from="1520674423203" duration="30936000" />
-      <workItem from="1520861236438" duration="16635000" />
+      <workItem from="1520861236438" duration="22630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176722000" />
+    <option name="totallyTimeSpent" value="182717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,21 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/reception.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <marker date="1520330456017" expanded="true" signature="198:287" ph="INSERT INTO `tchat`... " />
-            <marker date="1520330456017" expanded="true" signature="252:287" ph="INSERT INTO `users`... " />
-            <marker date="1520330456017" expanded="true" signature="499:589" ph="SELECT `id_m... tchat" />
-            <marker date="1520330456017" expanded="true" signature="554:589" ph="SELECT id_us... tchat" />
-            <marker date="1520330456017" expanded="true" signature="821:1087" ph="..." />
-            <marker date="1520330456017" expanded="true" signature="911:1072" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -585,16 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fr/tchat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <marker date="1520617590214" expanded="true" signature="260:350" ph="SELECT SELEC... tchat" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/modifier_quizz.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -626,30 +663,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fr/apprendre_lsf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-533">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fr/certification_irl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="119" column="12" lean-forward="false" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fr/profil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="101" column="105" lean-forward="false" selection-start-line="101" selection-start-column="105" selection-end-line="101" selection-end-column="105" />
-          <folding>
-            <marker date="1520681391752" expanded="true" signature="209:245" ph="SELECT * FRO... users" />
-            <marker date="1520681391752" expanded="true" signature="486:641" ph="UPDATE users... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -674,16 +692,6 @@
             <marker date="1520765448285" expanded="true" signature="464:537" ph="SELECT `id_c... cours" />
             <marker date="1520765448285" expanded="true" signature="1667:1699" ph="..." />
             <marker date="1520765448285" expanded="true" signature="1667:1715" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/ajouter_cours.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <marker date="1520777668854" expanded="true" signature="386:500" ph="INSERT INTO `cours`... " />
           </folding>
         </state>
       </provider>
@@ -771,30 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/envoi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fr/offre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-381">
-          <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fr/cours_gratuit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fr/page_de_base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -807,14 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="93" column="88" lean-forward="false" selection-start-line="93" selection-start-column="88" selection-end-line="93" selection-end-column="88" />
           <folding />
         </state>
       </provider>
@@ -847,14 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fr/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="235" column="44" lean-forward="true" selection-start-line="235" selection-start-column="44" selection-end-line="235" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/footer_back.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -863,18 +831,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fr/cours_gratuit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="63" column="43" lean-forward="true" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/offre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/ajouter_cours.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="63" selection-end-column="18" />
+          <folding>
+            <marker date="1520777668854" expanded="true" signature="386:500" ph="INSERT INTO `cours`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="138" column="47" lean-forward="false" selection-start-line="138" selection-start-column="47" selection-end-line="138" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="174">
+          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="625" column="12" lean-forward="false" selection-start-line="625" selection-start-column="12" selection-end-line="625" selection-end-column="12" />
+        <state relative-caret-position="215">
+          <caret line="545" column="20" lean-forward="false" selection-start-line="545" selection-start-column="20" selection-end-line="545" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/profil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="112" column="102" lean-forward="false" selection-start-line="112" selection-start-column="102" selection-end-line="112" selection-end-column="102" />
+          <folding>
+            <marker date="1520899787208" expanded="true" signature="209:245" ph="SELECT * FRO... users" />
+            <marker date="1520899787208" expanded="true" signature="486:641" ph="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/tchat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <marker date="1520899938365" expanded="true" signature="260:350" ph="SELECT SELEC... tchat" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/reception.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <marker date="1520899938377" expanded="true" signature="198:287" ph="INSERT INTO `tchat`... " />
+            <marker date="1520899938377" expanded="true" signature="252:287" ph="INSERT INTO `users`... " />
+            <marker date="1520899938377" expanded="true" signature="499:589" ph="SELECT `id_m... tchat" />
+            <marker date="1520899938377" expanded="true" signature="554:589" ph="SELECT id_us... tchat" />
+            <marker date="1520899938377" expanded="true" signature="821:1140" ph="..." />
+            <marker date="1520899938377" expanded="true" signature="911:1125" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/envoi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="95" lean-forward="false" selection-start-line="49" selection-start-column="95" selection-end-line="49" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/apprendre_lsf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding />
         </state>
       </provider>

@@ -14,7 +14,7 @@ include('../include/header.php');
 					<h3 class="text-blue">Débutant</h3>
 					<p class="margin-0">Vous ne connaissez pas la lsf</p>
 					<p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
-					<img src="../images/offres.png" class="w-90">
+					<img src="../images/offres.png" class="w-80">
                     <div class="row">
                         <a href="#" title="" class="button button_orange col s12">Choisir cette offre</a>
                     </div>
@@ -46,7 +46,7 @@ include('../include/header.php');
                     <h3 class="text-blue">Intermédiaire</h3>
                     <p class="margin-0">Vous ne connaissez pas la lsf</p>
                     <p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
-                    <img src="../images/offres.png" class="w-90">
+                    <img src="../images/offres1.png" class="w-80">
                     <div class="row">
                         <a href="#" title="" class="button button_orange col s12">Choisir cette offre</a>
                     </div>

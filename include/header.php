@@ -47,11 +47,11 @@
 <!-- POP UP INSCRIPTION -->
 <div class="w-100 flex-col-center fixed z-1 hidden" id="pop-up_inscription">
     <div class="opacity_2 h-100 w-100 flex-col-center fixed z-2"></div>
-    <div class="w-40 w-m-100 h-75 bloc_bordered white flex-col-center-sa padding z-3 pop_up">
+    <div class="w-40 w-m-100 h-95 bloc_bordered white flex-col-center-sa padding z-3 pop_up_ins">
 
         <h2 class="text-blue">Inscription</h2>
 
-        <form class="flex-col-sa w-55 h-65" method="post" action="../admin/sign_in.php">
+        <form class="flex-col-sa w-55 h-95" method="post" action="../admin/sign_in.php">
 
             <div class="flex-sb w-100">
                 <div class="flex-col-sa w-45 h-10">
@@ -69,7 +69,7 @@
                 <input type="email" name="email" id="email" title="email" class="w-100">
             </div>
 
-            <div class="flex-sb w-100">
+            <div class="flex-sb h-10 w-100">
                 <div class="flex-col-sa w-45 h-10">
                     <label for="password">Password</label>
                     <input type="password" name="password" id="password" title="password" class="w-100">
@@ -78,6 +78,25 @@
                     <label for="tel">Téléphone</label>
                     <input type="tel" name="tel" title="tel" id="tel" class="w-100">
                 </div>
+            </div>
+
+            <div class="flex-sb w-100">
+            <div class="flex-col-sa w-45 h-10">
+                <label for="niveau_forfait">Niveau</label>
+                <select title="niveau_forfait" name="niveau_forfait" class="w-100 browser-default">
+                    <option value="A" selected>Débutant</option>
+                    <option value="B">Intermédiare</option>
+                </select>
+            </div>
+
+            <div class="flex-col-sa w-45 h-10">
+                <label for="niveau_formation">Niveau</label>
+                <select title="niveau_formation" name="niveau_formation" class="w-100 browser-default">
+                    <option value="3" selected>3 mois</option>
+                    <option value="6">6 mois</option>
+                    <option value="9">9 mois</option>
+                </select>
+            </div>
             </div>
 
             <div class="flex-col-sa w-100 h-10">
@@ -90,7 +109,7 @@
                 <input type="text" name="cp_adresse" id="cp_adresse" title="adresse" class="w-100">
             </div>
 
-            <div class="flex-col-center-sa w-100 h-15">
+            <div class="flex-col-center-sa w-100 m-l-f-10 h-15">
                 <a href="../fr/offre.php" class="button button_white_blue w-100 margin-0">Voir les offres</a>
                 <input type="submit" value="S'inscrire" class="button button_blue w-100 margin-0">
             </div>

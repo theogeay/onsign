@@ -68,7 +68,7 @@ include('../include/header.php');// nav + pop up
                 <h3 class="text-blue">Intermédiaire</h3>
                 <p class="margin-0">Vous ne connaissez pas la lsf</p>
                 <p class="margin-0">mais vous souhaitez apprendre les fondamentaux</p>
-                <img src="../images/offres.png" class="w-85">
+                <img src="../images/offres1.png" class="w-85">
                 <a href="#" title="" class="button button_orange w-70 link_inscription">Choisir cette offre</a>
             </div>
         </div>

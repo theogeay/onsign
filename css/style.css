@@ -151,7 +151,7 @@ main {
 }
 
 
-input, textarea {
+input, textarea, select {
     border: solid 1px grey!important;
     border-radius: 5px!important;
     padding: 10px!important;
@@ -542,6 +542,14 @@ nav ul a {
     margin: 1rem!important;
 }
 
+.m-b-5px {
+    margin-bottom: 5px;
+}
+
+.m-l-f-10 {
+    margin-left: 10px;
+}
+
 .padding-2 {
     padding: 2rem!important;
 }
@@ -638,6 +646,14 @@ footer > .row {
 
 }
 
+.pop_up_ins {
+
+    position: relative;
+    top: 2vh;
+    left: 30vw;
+
+}
+
 .opacity_2 {
     background-color: rgba(0,0,0,0.3);
     height: 100vh;
@@ -688,6 +704,14 @@ footer > .row {
 
     }
 
+    .pop_up_ins {
+
+        position: relative;
+        top: 2vh;
+        left: 10vw;
+
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -711,6 +735,14 @@ footer > .row {
 
         position: relative;
         top: 15vh!important;
+        left: 0!important;
+
+    }
+
+    .pop_up_ins {
+
+        position: relative;
+        top: 2vh;
         left: 0!important;
 
     }

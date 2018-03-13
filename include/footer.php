@@ -27,9 +27,9 @@
         </div>
         <div class="col s10 m4 push-m1 l4 push-l1">
             <div class="row">
-                <div class="col s4"><a><img src="../images/facebook.png" alt="facebook" class="rs_logo"></a></div>
-                <div class="col s4"><a><img src="../images/instagram.png" alt="instagram" class="rs_logo"></a></div>
-                <div class="col s4"><a><img src="../images/twitter.png" alt="twitter" class="rs_logo"></a></div>
+                <div class="col s4"><a target="_blank" href="https://www.facebook.com/Onsign-334316097061067/"><img src="../images/facebook.png" alt="facebook" class="rs_logo"></a></div>
+                <div class="col s4"><a target="_blank" href="https://www.instagram.com/onsign_learning/"><img src="../images/instagram.png" alt="instagram" class="rs_logo"></a></div>
+                <div class="col s4"><a target="_blank" href="https://twitter.com/Onsign_learning"><img src="../images/twitter.png" alt="twitter" class="rs_logo"></a></div>
             </div>
         </div>
     </div>

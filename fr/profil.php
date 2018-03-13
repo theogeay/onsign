@@ -52,59 +52,68 @@ include('../include/header_cours.php');
 <section class="flex-col-center container">
     
         <div class="flex-col-center row m-top-30px col s12">
-					<h1 class="black-text">Votre profil</h1>
-								
-	
+            <h1 class="black-text">Votre profil</h1>
         </div>
 
-<div class="flex-start w-60">
-
-		</div>
 			<form action="profil.php?id=<?= $value['id'] ?>" method="post" class="w-60 flex-sa m-bot-30px row ">
-					
-            <div class="flex-col-center col s12 l6 m6">
-                <div class="hidden">
-                <p>id</p>
-                <input value="<?=$value['id']?>" class="browser-default" name="id"  >
-            </div>
-						
-            <div class="flex-sb m-top-5px w-85">
-                <p>Nom</p>
-                <input value="<?=$value['nom']?>" class="browser-default"  name="nom"  >
-            </div>
-            <div class="flex-sb m-top-5px w-85">
-                <p>Prénom</p>
-                <input class="browser-default"  name="prenom" value="<?=$value['prenom']?>" >
-            </div>
-            <div class="flex-sb m-top-5px w-85">
-                <p>Mail</p>
-                <input value="<?=$value['mail']?>"  class="browser-default"  name="mail"  >
-            </div>
-						<div class="flex-sb m-top-5px w-85">
-                <p>Adresse</p>
-                <textarea    name="adresse"  ><?=$value['adresse']?></textarea>
-            </div>
-							</div>
-					<div class="flex-col-center col s12 l6 m6">
 
-            <div class="flex-sb m-top-5px w-85">
-                <p>Téléphone</p>
-                <input value="<?=$value['telephone']?>"  class="browser-default"  name="telephone"  >
+            <div class="hidden">
+                <label for="id">id</label>
+                <input type="text" value="<?=$value['id']?>" class="browser-default" name="id"  >
             </div>
-            <div class="flex-sb m-top-5px w-85">
-                <p>Pseudo</p>
-                <input value="<?=$value['pseudo']?>"  class="browser-default"  name="pseudo"  >
+
+            <div class="row">
+            <div class="flex-col col s12 m6 l6">
+                <label for="nom">Nom</label>
+                <input type="text" value="<?=$value['nom']?>" class="browser-default"  name="nom"  >
             </div>
-            <div class="flex-sb m-top-5px w-85">
-                <p>Mot de passe</p>
-                <input value="<?=$value['mdp']?>"  class="browser-default"  name="mdp"  >
+
+            <div class="flex-col col s12 m6 l6">
+                <label for="prenom">Prénom</label>
+                <input type="text" class="browser-default"  name="prenom" value="<?=$value['prenom']?>" >
             </div>
-            <button type="submit" name="envoyer" class="button button_orange w-85 m-bot-10px">Enregistrer</button>
-						</div>
+            </div>
+
+            <div class="row">
+            <div class="flex-col col s12 m6 l6">
+                <label for="mail">Mail</label>
+                <input type="text" value="<?=$value['mail']?>"  class="browser-default"  name="mail"  >
+            </div>
+
+            <div class="flex-col col s12 m6 l6">
+                <label for="adresse">Adresse</label>
+                <textarea name="adresse"><?=$value['adresse']?></textarea>
+            </div>
+            </div>
+
+            <div class="row">
+            <div class="flex-col col s12 m6 l6">
+                <label for="telephone">Téléphone</label>
+                <input type="text" value="<?=$value['telephone']?>"  class="browser-default"  name="telephone"  >
+            </div>
+
+            <div class="flex-col col s12 m6 l6">
+                <label for="pseudo">Pseudo</label>
+                <input type="text" value="<?=$value['pseudo']?>"  class="browser-default"  name="pseudo"  >
+            </div>
+            </div>
+
+            <div class="row">
+            <div class="flex-col col s12 m6 l6">
+                <label for="mdp">Mot de passe</label>
+                <input type="password" value="<?=$value['mdp']?>"  class="browser-default"  name="mdp"  >
+            </div>
+
+            <div class="flex-col col s12 m6 l6">
+                <label for="complement_adresse">Complément d'adresse</label>
+                <textarea name="complement_adresse"><?=$value['complement_adresse']?></textarea>
+            </div>
+            </div>
+
+                <button type="submit" name="envoyer" class="button button_orange col s12 m6 l6 pull-l3">Enregistrer</button>
+
+
         </form>
-    
-			
 
-        
 </section>
 <?php include('../include/footer.php') ?>
